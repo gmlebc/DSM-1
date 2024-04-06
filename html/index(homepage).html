@@ -3,45 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Homepage - Curso de Scrum</title>
 </head>
 <body>
-    <div class="topo">
-        <div class="logo" id="Homepage">
-            <a href="index.html"><img src="../assets/Logo_TechWizards_Final.png" alt="Logo_TechWizards" width=100px height="100px"></a> 
-            <p>TechWizards</p>
-        </div>
-        <div class="entraLogin">
-            <img src="../assets/imgPerfil.png" alt="Imagem do Pefil" width="100px">
-            <div class="Login">
-                <form>
-                    <label>Email:</label> 
-                    <input type="text" name="email" required placeholder="Entre com seu email"/> 
+    <header>
+        <div class="container">
+            <div class="logo" id="Homepage">
+                <a href="index.html">
+                    <img src="../assets/Logo_TechWizards_Final.png" alt="Logo_TechWizards" width=100px height="100px">
+                </a> 
+                <p>TechWizards</p>
+            </div>
+            <div class="entraLogin">
+                <img src="../assets/imgPerfil.png" alt="Imagem do Pefil" width="100px">
+                <div class="login">
+                    <form>
+                        <label>Email:</label> 
+                        <input class="email" type="text" name="email" required placeholder="Entre com seu email"/> 
+                        <br>
+                    </form>
                     <br>
-                </form>
-                <br>
-                <button>Entrar</button>
+                    <div class="button"><button>Entrar</button></div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container homepage1">
-        <h2>Curso - Scrum</h2>
-        <h3>Aprendendo a metodologia ágil Scrum</h3>
-        <p>Este curso tem como objetivo ensinar os fundamentos da metodologia ágil Scrum e como aplicá-la em projetos de desenvolvimento de software.</p>
-        <img src="../assets/nome-Scrum.png" alt="Scrum" width="600px">
-    </div>
-
-    <div class="container homepage2">
-        <h2>Metodologia</h2>
-        <p>O Scrum é um framework ágil para gerenciamento de projetos que enfatiza a colaboração, a entrega incremental e o aprendizado contínuo. Ele é amplamente utilizado na área de desenvolvimento de software mas também tem sido adotado em outras áreas, como marketing, educação e até mesmo em famílias.
-        </p>
-        <img src="../assets/metodologia-scrum.png" alt="Ilustração Metodologia Scrum" width="600px">
-    </div>
-
-    <div class="rodape">
-        Desenvolvido por <span>TechWizards</span>
-    </div>
+    </header>
+    <main>
+        <div class="container homepage1">
+            <div class="sobre-conteudo">
+                <h2>Curso - Scrum</h2>
+                <h3>Aprendendo a metodologia ágil Scrum</h3>
+                <p>Este curso tem como objetivo ensinar os fundamentos da metodologia ágil Scrum e como aplicá-la em projetos de desenvolvimento de software.</p>
+            </div>
+            <div class="img-conteudo">
+                <img src="../assets/nome-Scrum.png" alt="Scrum">
+            </div>
+            
+        </div>
     
+        <div class="container homepage2">
+            <div class="sobre-conteudo">
+                <h2>Metodologia</h2>
+                <p>O Scrum é um framework ágil para gerenciamento de projetos que enfatiza a colaboração, a entrega incremental e o aprendizado contínuo. Ele é amplamente utilizado na área de desenvolvimento de software mas também tem sido adotado em outras áreas, como marketing, educação e até mesmo em famílias.
+                </p>
+            </div>
+            <div class="img-conteudo">
+                <img src="../assets/metodologia-scrum.png" alt="Ilustração Metodologia Scrum">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <p>Desenvolvido por <span>TechWizards</span></p>
+        </div>
+    </footer>   
 </body>
 </html>
