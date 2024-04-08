@@ -39,6 +39,7 @@ header, footer{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     padding: 5px 0 5px 0;
     text-align: center;
+    background-color:#6498BB ;
 }
 main{
     width: 100%;
@@ -49,20 +50,26 @@ header .container{
     border-bottom: 1px  black;   
 }
 .logo{
-    max-width: 240px;
+    max-width: 600px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    z-index: 1;
 }
-.logo img{
+/* .logo img{
     width: 180px;
-}
+} */
 .logo p{
-    color: black;
-    font-size: 47px;
+    color: #fff;
+    font-size: 60px;
     text-align: left;
-    font-weight: bold;
+
     font-family: "Pangolin", cursive;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    -webkit-text-stroke-width: 1px; /* Largura da borda */
+    -webkit-text-stroke-color: black;
+    
 }
 .entraLogin{
     width: 240px ;
@@ -76,16 +83,17 @@ header .container{
     margin-bottom: 10px;
     align-items: center;
 }
-.login label{
+.login-form label{
     font-weight: 600;
 }
-.login .email{
+.login-form .email{
     width:151px;
     height: 30px;
     text-align: center;
     border-radius: 5px;
 }
 .button{
+    margin-top: 10px;
     text-align: center;
     
 }
@@ -93,14 +101,14 @@ header .container{
     padding: 3px;
     width:100px;
     border-radius: 5px;
-    background-color: #8f7f71;
+    background-color:white ;
 }
 
 /*Estilos Corpo/Conteúdo*/
     /*Estilos comuns*/
 .homepage1, .homepage2{
     max-width: 100%;
-    background-color: #8f7f71;
+    
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -110,7 +118,7 @@ header .container{
     align-items: center;
 }
 .sobre-homepage h2, .sobre-homepage h3, .sobre-homepage p{
-    color: #fff;
+    color: black;
     border: 1px black;
 }
 .especial{
@@ -118,7 +126,7 @@ header .container{
     flex-direction: row;
     max-width: 1024px;
     height: 60%;
-    background-color: #8f7f71;
+    
 }
 .especial .p{
     display: flex;
@@ -162,6 +170,7 @@ header .container{
 .separa-homepage{
    
     margin: auto 0;
+    background-color:#6498BB ;
 }
 .separa-homepage .container{
     height: 100px;
@@ -173,15 +182,16 @@ header .container{
 .separa-homepage p{
     font-size: 45px;
     font-weight: bold;
+    color: #fff;
 }
 .separa-homepage button{
     width: 200px;
     padding: 15px;
     border-radius: 15px;
-    background-color: #8f7f71;
+    background-color:#fff ;
 }
 button{
-    color:#fff;
+    color:black;
     font-size: 20px;
     font-weight: bold;
 }
@@ -204,8 +214,48 @@ button{
     
 }
 span{
-    color: black;
+    color: white;
     font-weight: bold;
     font-family: "Pangolin", cursive;
     font-size: 32px;
+}
+
+/*TESTE MENU SUSPENSO*/
+.entraLogin {
+    position: relative; /* Estabelece um contexto de posicionamento para o formulário de login */
+}
+
+.login-form {
+    display: none; /* Oculta o formulário por padrão */
+    position: absolute;
+    top: 100%; /* Alinha o formulário abaixo da imagem de entrada de login */
+    left: 0;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    z-index: 1; /* Garante que o formulário esteja acima de outros elementos */
+}
+
+.entraLogin:hover .login-form {
+    display: block; /* Exibe o formulário quando o mouse está sobre a imagem de entrada de login */
+}
+.borda{
+    width: 160px;
+    height: 160px;
+   
+    background: black;
+    border-radius: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+
+    /* para criar borda gradiente em IMG (onde não se pode aplicar o ::before diretamente no elemento img), cria-se uma nova div */
+}
+.logo img{
+    border-radius: 80%;
+    width: 150px;
+    height: 150px;
 }
