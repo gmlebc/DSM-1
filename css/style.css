@@ -39,7 +39,8 @@ header, footer{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     padding: 5px 0 5px 0;
     text-align: center;
-    background-color:#6498BB ;
+    background-color:#0D0D0D;
+    font-family: ;
 }
 main{
     width: 100%;
@@ -64,14 +65,10 @@ header .container{
     font-size: 60px;
     text-align: left;
 
-    font-family: "Pangolin", cursive;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    -webkit-text-stroke-width: 1px; /* Largura da borda */
-    -webkit-text-stroke-color: black;
     
 }
-.entraLogin{
+.entraLogin{ 
+    color:#F2CB05;
     width: 240px ;
     display: flex;
     flex-direction: column;
@@ -101,7 +98,7 @@ header .container{
     padding: 3px;
     width:100px;
     border-radius: 5px;
-    background-color:white ;
+    background-color:#F2CB05;
 }
 
 /*Estilos Corpo/Conteúdo*/
@@ -113,9 +110,16 @@ header .container{
     border-bottom: 1px solid black;
 }
 .sobre-homepage{
+    
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.homepage2 {
+    background-color: #1BAFBF;
+}
+.homepage2-cor-especial{
+    background-color:#1BAFBF ;
 }
 .sobre-homepage h2, .sobre-homepage h3, .sobre-homepage p{
     color: black;
@@ -170,7 +174,7 @@ header .container{
 .separa-homepage{
    
     margin: auto 0;
-    background-color:#6498BB ;
+    background-color:#0D0D0D ;
 }
 .separa-homepage .container{
     height: 100px;
@@ -182,13 +186,13 @@ header .container{
 .separa-homepage p{
     font-size: 45px;
     font-weight: bold;
-    color: #fff;
+    color: #F2CB05;
 }
 .separa-homepage button{
     width: 200px;
     padding: 15px;
     border-radius: 15px;
-    background-color:#fff ;
+    background-color:#F2CB05 ;
 }
 button{
     color:black;
@@ -208,8 +212,8 @@ button{
     justify-content: center;
     text-align: center;
     padding: 20px;
-
-    color: black;
+    
+    color: #1BAFBF;
     font-size: 20px;
     
 }
