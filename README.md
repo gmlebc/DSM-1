@@ -51,10 +51,10 @@
 ## :page_with_curl: USER STORIES
 <br>
 
-## :page_with_curl: MODELO CONCEITUAL
+## :page_with_curl: MODELO RELACIONAL
 <br>
 
-[MER](https://github.com/TechWizards-Tech/DSM-1/assets/137526500/877a7b03-53fd-4d98-982d-a32295f7c072)
+![Modelo Entidade Relacionamento](MER.png)
 
 
 ## :page_with_curl: GRUPO
