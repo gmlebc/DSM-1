@@ -4,7 +4,7 @@
 <br>
 
 # SOBRE O PROJETO 
-## Com o intuito de desenvolver uma aplicação Web usando metodologias ágeis a FATEC DE JACAREÍ propôs aos alunos do 1° semestre do curso de Desenvolvimento de Software Multiplataforma (DSM), o desenvolvimento de um curso online sobre o metodo ágil Scrum, que define-se como um framework de colaboração de equipe ágil comumente usado.
+## <p align="justify"> Com o intuito de desenvolver uma aplicação Web usando metodologias ágeis a FATEC DE JACAREÍ propôs aos alunos do 1° semestre do curso de Desenvolvimento de Software Multiplataforma (DSM), o desenvolvimento de um curso online sobre o metodo ágil Scrum, que define-se como um framework de colaboração de equipe ágil comumente usado.</p>
 
 ## Sprints
 
@@ -93,14 +93,3 @@
 
 
 
-
--sprint 2
-texto
--sprint backlog
-2
-
-
--sprint 3
-texto
--sprint backlog
-3
