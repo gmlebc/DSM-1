@@ -226,7 +226,7 @@ span{
 
 /*TESTE MENU SUSPENSO*/
 .entraLogin {
-    position: relative; /* Estabelece um contexto de posicionamento para o formulário de login */
+    position: relative; /*gitEstabelece um contexto de posicionamento para o formulário de login */
 }
 
 .login-form {
