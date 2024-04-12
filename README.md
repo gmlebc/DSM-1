@@ -10,7 +10,7 @@
 
 | Sprint | Link | Início | Entrega | Status |
 |--- |--- |--- |--- |:---:
-| 01 | [Sprint 01](#sprint1) | 25/03/2024 | 18/04/2024 | ✔ |
+| 01 | [Sprint 01](#sprint-1)| 25/03/2024 | 18/04/2024 | ✔ |
 | 02 | [Sprint 02](#sprint2) | 22/04/2024 | 15/05/2024 |  |
 | 03 | [Sprint 03](#sprint3) | 20/05/2024 | 12/06/2024 |  |
 
@@ -39,7 +39,7 @@
 | RF - 8                 | Navegabilidade do site                                                                                         | #01 ✔   |
 
 | REQUISITO NÃO_FUNCIONAL_ID | REQUISITOS                                                                 | SPRINTS |
-|----------------------------|----------------------------------------------------------------------------|---------|
+|----------------------------|----------------------------------------------------|---------|
 | RNF - 1                    | Utilizar HTML5 para arquitetura da informação da aplicação                 | #01 ✔   |
 | RNF - 2                    | Utilizar CSS 3 para especificação do layout e demais características de renderização da interface com o usuário | #01 ✔   |
 | RNF - 3                    | Utilizar JavaScript no front end (obs.: não pode fazer uso de frameworks)  |         |
@@ -50,6 +50,16 @@
 
 ## :page_with_curl: USER STORIES
 <br>
+
+| ID REFERENCIA | Remetente | Instrução | Finalidade | Pioridade |
+|---------------|-----------|-----------|------------|------------------|
+| RF - 1        | Cliente   | Como cliente, quero poder visualizar um protótipo do site | Para entender sua estrutura e funcionalidades |   |
+| RF - 2/ RF - 3| Cliente   | Como cliente, eu quero que os usuários consigam se cadastrar no site e fazer login | Para terem acesso ao conteúdo do curso |   |
+| RF - 4        | Usuário   | Como usuário, quero acessar o conteúdo do curso, organizado e de fácil entendimento | Para adquirir conhecimento e habilidades através do curso oferecido |   |
+| RF - 5        | Usuário   | Como usuário, quero ser capaz de realizar uma avaliação de desempenho após concluir o curso | Para avaliar meu progresso e compreensão do curso |  |
+| RF - 6        | Cliente   | Como cliente, eu quero que os usuários consigam emitir certificado após realizar uma avaliação de desempenho do curso | Para validar a finalização do curso e o conhecimento adquirido |   |
+| RF - 7/ RNF-5 | Cliente   | Como cliente, quero ter um Modelo Visual do site intuitivo e responsivo | Para que os usuários tenham facilidade em navegar pelo site, independente do dispositivo pelo qual estão acessando  |   |
+
 
 ## :page_with_curl: MODELO RELACIONAL
 <br>
@@ -71,9 +81,11 @@
 | Pamela Freitas     | Developer     | https://github.com/PaamFreitas18 |
 | Leandro Barbosa    | Developer     | https://github.com/gmlebc|
 
-<span id="sprint1">
 
-## :page_with_curl: SPRINT 1 
+
+ ## :page_with_curl: SPRINT 1 
+ 
+
 
 <p align="justify">Na Primeira Sprint realizamos o levantamento dos Requisitos com o cliente, através do Product Owner, para definirmos melhor os Requisitos Funcionais (RF) e os Requisitos Não Funcionais (RNF) do produto e criamos a Backlog List do produto. Através da Backlog List, criamos o Backlog da Sprint 1 e definimos as tarefas que cada um dos membros da equipe iriam executar nessa etapa. . Definimos os elementos das páginas, fazendo o protótipo das mesmas usando Figma e usamos HTML5 e CSS3 para criar o protótipo da primeira página do site. Além disso, foi criado o Modelo Entidade Relacionamento para desenvolvimento do Banco de Dados e começamos a desenvolver outras etapas, como a elaboração de conteúdos para o site, que serão implementadas nas próximas sprints. Criamos ainda o Repositório no GitHub para manter o controle das alterações feitas durante a realização do projeto e organização e o Readme.MD para apresentação do nosso projeto. </p>
 
