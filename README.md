@@ -8,11 +8,13 @@
 
 ## Sprints
 
-| Sprint | Link | Início | Entrega | Status |
-|--- |--- |--- |--- |:---:
-| 01 | [Sprint 01](#sprint-1)| 25/03/2024 | 18/04/2024 | ✔ |
-| 02 | [Sprint 02](#sprint2) | 22/04/2024 | 15/05/2024 |  |
-| 03 | [Sprint 03](#sprint3) | 20/05/2024 | 12/06/2024 |  |
+| Sprint | Link        | Início      | Entrega     | Status |
+|--------|-------------|-------------|-------------|--------|
+| 01     | [Sprint 01](#sprint-1) | 25/03/2024  | 18/04/2024  | ✔      |
+| 02     | [Sprint 02](#sprint2) | 22/04/2024  | 15/05/2024  |        |
+| 03     | [Sprint 03](#sprint3) | 20/05/2024  | 12/06/2024  |        |
+
+<br>
 
 
 <br>
@@ -83,7 +85,7 @@
 
 
 
- ## :page_with_curl: SPRINT-1 
+## :page_with_curl: SPRINT-1 
  
 
 
