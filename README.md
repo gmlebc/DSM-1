@@ -63,7 +63,7 @@
 ## :page_with_curl: MODELO RELACIONAL
 <br>
 
-![Modelo Entidade Relacionamento](MER.png)
+![Modelo Entidade Relacionamento](Documentos/Modelo_Conceitual_BD.png)
 
 
 ## :page_with_curl: GRUPO
