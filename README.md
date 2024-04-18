@@ -69,12 +69,11 @@
 ## :page_with_curl: GRUPO
 <br>
 
-| NOME                | FUNÇÃO        | GITHUB                               |
+| NOME               | FUNÇÃO        | GITHUB                               |
 |--------------------|---------------|--------------------------------------|
-| Pollyana Roberta   | Developer     | https://github.com/Pollymeowth |
+| Pollyana Roberta   | Scrum Master  | https://github.com/Pollymeowth |
 | Bruna Regra        | Project Owner | https://github.com/regrabru      |
 | Raquel Nakamura    | Developer     | https://github.com/nakamuraraquel |
-| João Otávio        | Scrum Master  | https://github.com/jotavionm |
 | Maria Eduarda      | Developer     | https://github.com/ferreira-me |
 | Felipe Correa      | Developer     | https://github.com/turnupthetaste |
 | Pamela Freitas     | Developer     | https://github.com/PaamFreitas18 |
