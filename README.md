@@ -6,7 +6,7 @@
 # SOBRE O PROJETO 
 ## <p align="justify"> Com o intuito de desenvolver uma aplicação Web usando metodologias ágeis a FATEC DE JACAREÍ propôs aos alunos do 1° semestre do curso de Desenvolvimento de Software Multiplataforma (DSM), o desenvolvimento de um curso online sobre o metodo ágil Scrum, que define-se como um framework de colaboração de equipe ágil comumente usado.</p>
 
-## Sprints
+## SPRINTS
 
 | Sprint | Link        | Início      | Entrega     | Status |
 |--------|-------------|-------------|-------------|--------|
@@ -80,15 +80,15 @@
 | Pamela Freitas     | Developer     | https://github.com/PaamFreitas18 |
 | Leandro Barbosa    | Developer     | https://github.com/gmlebc|
 
+<br>
 
 <span id="sprint-1">
  
 ## :page_with_curl: SPRINT 1 
 <p align="justify">Na Primeira Sprint realizamos o levantamento dos Requisitos com o cliente, através do Product Owner, para definirmos melhor os Requisitos Funcionais (RF) e os Requisitos Não Funcionais (RNF) do produto e criamos a Backlog List do produto. Através da Backlog List, criamos o Backlog da Sprint 1 e definimos as tarefas que cada um dos membros da equipe iriam executar nessa etapa. . Definimos os elementos das páginas, fazendo o protótipo das mesmas usando Figma e usamos HTML5 e CSS3 para criar o protótipo da primeira página do site. Além disso, foi criado o Modelo Entidade Relacionamento para desenvolvimento do Banco de Dados e começamos a desenvolver outras etapas, como a elaboração de conteúdos para o site, que serão implementadas nas próximas sprints. Criamos ainda o Repositório no GitHub para manter o controle das alterações feitas durante a realização do projeto e organização e o Readme.MD para apresentação do nosso projeto. </p>
+<br>
 
-
-
-## :page_with_curl: Sprint Backlog 
+### - Sprint Backlog 
 | ID REFERENCIA |Pioridade (Scrum Poker Planning) | REQUISITO DA SPRINT| Responsável |TAREFA INICIADA | TAREFA CONCLUIDA | 
 |---------------|--------------------|---------------|-----------------|-----------------|------------------|
 |  RF - 1    | 2 |Definir elementos das páginas para criar os protótipos iniciais |Maria Eduarda | ✔  |✔  |
@@ -99,6 +99,10 @@
 |  RNF - 1    | 8 |Desenvolver a primeira versão do index.html e criar o protótipo HTML da página de cadastro. |Pollyana |  ✔  |✔  |
 |  RNF - 2    | 8 |Estilizar e integrar o arquivo CSS ao index.html conforme customização definida pela equipe.|Leandro  | ✔  |✔  |
 |  RNF - 4    | 6 |Modelo Relacional do BD|Felipe |  ✔  |✔  |
+<br>
+<br>
 
+### - Burndown Sprint 1
+![Sprint 1 - Burndown](Documentos/burndown.png)
 
 
