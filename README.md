@@ -50,14 +50,14 @@
 ## :page_with_curl: USER STORIES
 <br>
 
-| ID REFERENCIA | Remetente | Instrução | Finalidade | Pioridade |
-|---------------|-----------|-----------|------------|------------------|
-| RF - 1        | Cliente   | Como cliente, quero poder visualizar um protótipo do site | Para entender sua estrutura e funcionalidades |   |
-| RF - 2/ RF - 3| Cliente   | Como cliente, eu quero que os usuários consigam se cadastrar no site e fazer login | Para terem acesso ao conteúdo do curso |   |
-| RF - 4        | Usuário   | Como usuário, quero acessar o conteúdo do curso, organizado e de fácil entendimento | Para adquirir conhecimento e habilidades através do curso oferecido |   |
-| RF - 5        | Usuário   | Como usuário, quero ser capaz de realizar uma avaliação de desempenho após concluir o curso | Para avaliar meu progresso e compreensão do curso |  |
-| RF - 6        | Cliente   | Como cliente, eu quero que os usuários consigam emitir certificado após realizar uma avaliação de desempenho do curso | Para validar a finalização do curso e o conhecimento adquirido |   |
-| RF - 7/ RNF-5 | Cliente   | Como cliente, quero ter um Modelo Visual do site intuitivo e responsivo | Para que os usuários tenham facilidade em navegar pelo site, independente do dispositivo pelo qual estão acessando  |   |
+| ID REFERENCIA | Remetente | Instrução | Finalidade | 
+|---------------|-----------|-----------|------------|
+| RF - 1        | Cliente   | Como cliente, quero poder visualizar um protótipo do site | Para entender sua estrutura e funcionalidades |   
+| RF - 2/ RF - 3| Cliente   | Como cliente, eu quero que os usuários consigam se cadastrar no site e fazer login | Para terem acesso ao conteúdo do curso |   
+| RF - 4        | Usuário   | Como usuário, quero acessar o conteúdo do curso, organizado e de fácil entendimento | Para adquirir conhecimento e habilidades através do curso oferecido |   
+| RF - 5        | Usuário   | Como usuário, quero ser capaz de realizar uma avaliação de desempenho após concluir o curso | Para avaliar meu progresso e compreensão do curso |  
+| RF - 6        | Cliente   | Como cliente, eu quero que os usuários consigam emitir certificado após realizar uma avaliação de desempenho do curso | Para validar a finalização do curso e o conhecimento adquirido |   
+| RF - 7/ RNF-5 | Cliente   | Como cliente, quero ter um Modelo Visual do site intuitivo e responsivo | Para que os usuários tenham facilidade em navegar pelo site, independente do dispositivo pelo qual estão acessando  |   
 
 
 ## :page_with_curl: MODELO RELACIONAL
@@ -89,16 +89,16 @@
 
 
 ## :page_with_curl: Sprint Backlog 
-| ID REFERENCIA | REQUISITO DA SPRINT        | Responsável |TAREFA INICIADA | TAREFA CONCLUIDA | 
-|---------------|----------------------------|-----------------|-----------------|------------------|
-|  RF - 1    | Definir elementos das páginas para criar os protótipos iniciais |Maria Eduarda | ✔  |✔  |
-|  RF - 1    | Criar protótipos das telas no Figma   |Bruna e Raquel | ✔  |✔  |
-|  RF - 4 /RF - 5 | Pesquisar o conteúdo e elaborar as 20 questões que serão utilizadas e selecionadas aleatoriamente (parcial).|Pamela  | ✔  |✔  |
-|  RF - 7    | Definir paleta de cores e contrastes para o site |Raquel|  ✔  |✔  |
-|  RF - 8    | Elaboração da navegabilidade do site usando Figma |Bruna   | ✔  |✔  |
-|  RNF - 1    | Desenvolver a primeira versão do index.html e criar o protótipo HTML da página de cadastro. |Pollyana |  ✔  |✔  |
-|  RNF - 2    | Estilizar e integrar o arquivo CSS ao index.html conforme customização definida pela equipe.|Leandro    | ✔  |✔  |
-|  RNF - 4    | Modelo Relacional do BD|Felipe |  ✔  |✔  |
+| ID REFERENCIA |Pioridade (Scrum Poker Planning) | REQUISITO DA SPRINT| Responsável |TAREFA INICIADA | TAREFA CONCLUIDA | 
+|---------------|--------------------|---------------|-----------------|-----------------|------------------|
+|  RF - 1    | 2 |Definir elementos das páginas para criar os protótipos iniciais |Maria Eduarda | ✔  |✔  |
+|  RF - 1    | 3 |Criar protótipos das telas no Figma   |Bruna e Raquel | ✔  |✔  |
+|  RF - 4 /RF - 5 | 5 |Pesquisar o conteúdo e elaborar as 20 questões que serão utilizadas e selecionadas aleatoriamente (parcial).|Pamela  | ✔  |✔  |
+|  RF - 7    | 3 |Definir paleta de cores e contrastes para o site |Raquel|  ✔  |✔  |
+|  RF - 8    | 3 |Elaboração da navegabilidade do site usando Figma |Bruna   | ✔  |✔  |
+|  RNF - 1    | 8 |Desenvolver a primeira versão do index.html e criar o protótipo HTML da página de cadastro. |Pollyana |  ✔  |✔  |
+|  RNF - 2    | 8 |Estilizar e integrar o arquivo CSS ao index.html conforme customização definida pela equipe.|Leandro  | ✔  |✔  |
+|  RNF - 4    | 6 |Modelo Relacional do BD|Felipe |  ✔  |✔  |
 
 
 
