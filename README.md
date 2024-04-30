@@ -107,33 +107,6 @@
 
 <br>
 
-## :page_with_curl: SPRINT 2
-<p align="justify">DESCRIÇÃO SPRINT 2.... </p>
-
-
-### - Sprint Backlog 
-| ID REFERENCIA | Scrum Poker Planning | ATIVIDADE | REQUISITO DA SPRINT | Responsável | TAREFA CONCLUIDA |
-|---------------|----|---------------------------|---------------------|-------------|------------------|
-| RNF - 1       | 6  | HTML das páginas 2 e 3 | As páginas devem conter todos os elementos definidos para elas | Raquel |   |
-| RNF - 2       | 8  | CSS das páginas 2 e 3 | Seguir o padrão da estilização de acordo com o modelo visual | Raquel |   |
-| RNF - 1       | 6  | HTML das páginas 4 e 5 | As páginas devem conter todos os elementos definidos para elas | Maria Eduarda |  |
-| RNF - 2       | 8  | CSS das páginas 4 e 5 | Seguir o padrão da estilização de acordo com o modelo visual | Maria Eduarda |  |
-| RNF - 1       | 6  | HTML das páginas 6 e 7 | As páginas devem conter todos os elementos definidos para elas | Bruna |   |
-| RNF - 2       | 8  | CSS das páginas 6 e 7 | Seguir o padrão da estilização de acordo com o modelo visual | Bruna |   |
-| RNF - 1       | 9  | HTML das páginas 8, 9 e 10 | As páginas devem conter todos os elementos definidos para elas | Pollyana |   |
-| RNF - 2       | 12 | CSS das páginas 8, 9 e 10 | Seguir o padrão da estilização de acordo com o modelo visual | Pollyana |   |
-| RNF - 1       | 6  | HTML das páginas 11 e 12 | As páginas devem conter todos os elementos definidos para elas | Leandro |   |
-| RNF - 2       | 8  | CSS das páginas 11 e 12 | Seguir o padrão da estilização de acordo com o modelo visual | Leandro |   |
-| RF - 8        | 8  | Menu com Links | Todos os links clicáveis devem levar para suas respectivas referências | Pollyana |   |
-| RNF - 4       | 8  | Criar o Banco de Dados no PostgreSQL | Criar as tabelas no Banco de Dados para acesso PostgreSQL | Felipe | ✔ |
-| RNF - 6       | 6  | Cadastro de registros no Banco | Ser capaz de implementar o sistema de registro/inclusão de usuário no banco de dados | Felipe |   |
-| RNF - 6       | 6  | Cadastro de registros no Banco | Ser capaz de fazer consultas e retornar resultados corretamente no banco de dados | Pamela |   |
-
-
-<br>
-<br>
-
-### - Burndown Sprint 2
 
 
 
