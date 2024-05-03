@@ -104,6 +104,16 @@
 ### - Burndown Sprint 1
 ![Sprint 1 - Burndown](Documentos/burndown.png)
 
+### - Sprint Retrospective 
+1.	O que funcionou bem durante o sprint?
+Durante esta sprint, várias coisas funcionaram muito bem. Uma delas foi a colaboração da equipe. Todos estavam comprometidos e trabalhando em sincronia, o que nos permitiu alcançar nossos objetivos dentro do prazo. A comunicação melhorou significativamente, e a divisão de tarefas também, onde cada membro se dispôs a desenvolver uma parte porem o grupo inteiro aprovava no final. Isso ajudou a evitar mal-entendidos e a manter todos atualizados sobre o progresso do projeto. Também implementamos algumas novas práticas de desenvolvimento que resultaram em maior eficiência e qualidade. Esses elementos combinados contribuíram para um sprint bem-sucedido e nos deixam otimistas para os próximos desafios.
+
+2.	O que não funcionou tão bem durante o sprint?
+Durante o sprint, enfrentamos alguns desafios inesperados, como desistências repentinas de membros da equipe, incluindo desenvolvedores e até mesmo o Scrum Master. Isso exigiu uma rápida e eficaz reorganização para garantir a continuidade do desenvolvimento e o cumprimento dos prazos de entrega.
+
+3.	Quais ações podemos tomar para melhorar no próximo sprint?
+Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando áreas específicas para melhorias e implementando ajustes conforme necessário. Ao fazer essas melhorias e aprender com os desafios enfrentados no sprint, podemos nos posicionar ainda melhor para alcançar nossos objetivos no próximo sprint.
+
 ## :page_with_curl: SPRINT 2
 <p align="justify">DESCRIÇÃO SPRINT 2.... </p>
 
