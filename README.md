@@ -88,27 +88,59 @@
 <br>
 
 ### - Sprint Backlog 
-| ID REFERENCIA | Pioridade (Scrum Poker Planning) | ATIVIDADE | REQUISITO DA SPRINT | Responsável | TAREFA CONCLUIDA |
-|---------------|----------------------------------|-----------|---------------------|-------------|------------------|
-| RF - 1        | 2                                | Definir elementos das páginas para criar os protótipos iniciais | Realizar definição dos elementos de marcação da página | Maria Eduarda | ✔ |
-| RF - 1        | 3                                | Criar protótipos das telas no Figma | Criar protótipo de todas as páginas do site usando o Figma | Bruna e Raquel | ✔ |
-| RF - 4 / RF - 5 | 5                             | Pesquisar o conteúdo e elaborar as 20 questões que serão utilizadas e selecionadas aleatoriamente (parcial). | Pesquisar o conteúdo e elaborar as aulas/tópicos do curso | Pamela | ✔ |
-| RF - 7        | 3                                | Definir paleta de cores e contrastes para o site | Definir a paleta final para ser implementada no site usando CSS | Raquel | ✔ |
-| RF - 8        | 3                                | Elaboração da navegabilidade do site usando Figma | Definir a navegabilidade dos elementos do site | Bruna | ✔ |
-| RNF - 1       | 8                                | Desenvolver a primeira versão do index.html e criar o protótipo HTML da página de cadastro. | Usar HTML para reproduzir os elementos definidos no Figma no arquivo index.html (pagina 1) | Pollyana | ✔ |
-| RNF - 2       | 8                                | Estilizar e integrar o arquivo CSS ao index.html conforme customização definida pela equipe. | Usar CSS para estilizar o arquivo index.html (pagina 1) que foram definidos no Figma | Leandro | ✔ |
-| RNF - 4       | 6                                | Modelo Relacional do BD | Criar um arquivo de imagem, ilustrando o modelo relacional que será implementado no site. | Felipe | ✔ | ✔ |
-
+| ID REFERENCIA |Pioridade (Scrum Poker Planning) | REQUISITO DA SPRINT| Responsável |TAREFA INICIADA | TAREFA CONCLUIDA | 
+|---------------|--------------------|---------------|-----------------|-----------------|------------------|
+|  RF - 1    | 2 |Definir elementos das páginas para criar os protótipos iniciais |Maria Eduarda | ✔  |✔  |
+|  RF - 1    | 3 |Criar protótipos das telas no Figma   |Bruna e Raquel | ✔  |✔  |
+|  RF - 4 /RF - 5 | 5 |Pesquisar o conteúdo e elaborar as 20 questões que serão utilizadas e selecionadas aleatoriamente (parcial).|Pamela  | ✔  |✔  |
+|  RF - 7    | 3 |Definir paleta de cores e contrastes para o site |Raquel|  ✔  |✔  |
+|  RF - 8    | 3 |Elaboração da navegabilidade do site usando Figma |Bruna   | ✔  |✔  |
+|  RNF - 1    | 8 |Desenvolver a primeira versão do index.html e criar o protótipo HTML da página de cadastro. |Pollyana |  ✔  |✔  |
+|  RNF - 2    | 8 |Estilizar e integrar o arquivo CSS ao index.html conforme customização definida pela equipe.|Leandro  | ✔  |✔  |
+|  RNF - 4    | 6 |Modelo Relacional do BD|Felipe |  ✔  |✔  |
 <br>
 <br>
 
 ### - Burndown Sprint 1
 ![Sprint 1 - Burndown](Documentos/burndown.png)
 
+### - Sprint Retrospective 
+1.	O que funcionou bem durante o sprint?
+Durante esta sprint, várias coisas funcionaram muito bem. Uma delas foi a colaboração da equipe. Todos estavam comprometidos e trabalhando em sincronia, o que nos permitiu alcançar nossos objetivos dentro do prazo. A comunicação melhorou significativamente, e a divisão de tarefas também, onde cada membro se dispôs a desenvolver uma parte porem o grupo inteiro aprovava no final. Isso ajudou a evitar mal-entendidos e a manter todos atualizados sobre o progresso do projeto. Também implementamos algumas novas práticas de desenvolvimento que resultaram em maior eficiência e qualidade. Esses elementos combinados contribuíram para um sprint bem-sucedido e nos deixam otimistas para os próximos desafios.
+
+2.	O que não funcionou tão bem durante o sprint?
+Durante o sprint, enfrentamos alguns desafios inesperados, como desistências repentinas de membros da equipe, incluindo desenvolvedores e até mesmo o Scrum Master. Isso exigiu uma rápida e eficaz reorganização para garantir a continuidade do desenvolvimento e o cumprimento dos prazos de entrega.
+
+3.	Quais ações podemos tomar para melhorar no próximo sprint?
+Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando áreas específicas para melhorias e implementando ajustes conforme necessário. Ao fazer essas melhorias e aprender com os desafios enfrentados no sprint, podemos nos posicionar ainda melhor para alcançar nossos objetivos no próximo sprint.
+
+## :page_with_curl: SPRINT 2
+<p align="justify">DESCRIÇÃO SPRINT 2.... </p>
+
+
+### - Sprint Backlog 
+| ID REFERENCIA | Scrum Poker Planning | ATIVIDADE | REQUISITO DA SPRINT | Responsável | TAREFA CONCLUIDA |
+|---------------|----|---------------------------|---------------------|-------------|------------------|
+| RNF - 1       | 6  | HTML das páginas 2 e 3 | As páginas devem conter todos os elementos definidos para elas | Raquel |   |
+| RNF - 2       | 8  | CSS das páginas 2 e 3 | Seguir o padrão da estilização de acordo com o modelo visual | Raquel |   |
+| RNF - 1       | 6  | HTML das páginas 4 e 5 | As páginas devem conter todos os elementos definidos para elas | Maria Eduarda |  |
+| RNF - 2       | 8  | CSS das páginas 4 e 5 | Seguir o padrão da estilização de acordo com o modelo visual | Maria Eduarda |  |
+| RNF - 1       | 6  | HTML das páginas 6 e 7 | As páginas devem conter todos os elementos definidos para elas | Bruna |   |
+| RNF - 2       | 8  | CSS das páginas 6 e 7 | Seguir o padrão da estilização de acordo com o modelo visual | Bruna |   |
+| RNF - 1       | 9  | HTML das páginas 8, 9 e 10 | As páginas devem conter todos os elementos definidos para elas | Pollyana |   |
+| RNF - 2       | 12 | CSS das páginas 8, 9 e 10 | Seguir o padrão da estilização de acordo com o modelo visual | Pollyana |   |
+| RNF - 1       | 6  | HTML das páginas 11 e 12 | As páginas devem conter todos os elementos definidos para elas | Leandro |   |
+| RNF - 2       | 8  | CSS das páginas 11 e 12 | Seguir o padrão da estilização de acordo com o modelo visual | Leandro |   |
+| RF - 8        | 8  | Menu com Links | Todos os links clicáveis devem levar para suas respectivas referências | Pollyana |   |
+| RNF - 4       | 8  | Criar o Banco de Dados no PostgreSQL | Criar as tabelas no Banco de Dados para acesso PostgreSQL | Felipe | ✔ |
+| RNF - 6       | 6  | Cadastro de registros no Banco | Ser capaz de implementar o sistema de registro/inclusão de usuário no banco de dados | Felipe |   |
+| RNF - 6       | 6  | Cadastro de registros no Banco | Ser capaz de fazer consultas e retornar resultados corretamente no banco de dados | Pamela |   |
+
+
+<br>
 <br>
 
-
-
+### - Burndown Sprint 2
 
 
 
