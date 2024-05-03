@@ -88,20 +88,27 @@
 <br>
 
 ### - Sprint Backlog 
-| ID REFERENCIA |Pioridade (Scrum Poker Planning) | REQUISITO DA SPRINT| Responsável |TAREFA INICIADA | TAREFA CONCLUIDA | 
-|---------------|--------------------|---------------|-----------------|-----------------|------------------|
-|  RF - 1    | 2 |Definir elementos das páginas para criar os protótipos iniciais |Maria Eduarda | ✔  |✔  |
-|  RF - 1    | 3 |Criar protótipos das telas no Figma   |Bruna e Raquel | ✔  |✔  |
-|  RF - 4 /RF - 5 | 5 |Pesquisar o conteúdo e elaborar as 20 questões que serão utilizadas e selecionadas aleatoriamente (parcial).|Pamela  | ✔  |✔  |
-|  RF - 7    | 3 |Definir paleta de cores e contrastes para o site |Raquel|  ✔  |✔  |
-|  RF - 8    | 3 |Elaboração da navegabilidade do site usando Figma |Bruna   | ✔  |✔  |
-|  RNF - 1    | 8 |Desenvolver a primeira versão do index.html e criar o protótipo HTML da página de cadastro. |Pollyana |  ✔  |✔  |
-|  RNF - 2    | 8 |Estilizar e integrar o arquivo CSS ao index.html conforme customização definida pela equipe.|Leandro  | ✔  |✔  |
-|  RNF - 4    | 6 |Modelo Relacional do BD|Felipe |  ✔  |✔  |
+| ID REFERENCIA | Pioridade (Scrum Poker Planning) | ATIVIDADE | REQUISITO DA SPRINT | Responsável | TAREFA CONCLUIDA |
+|---------------|----------------------------------|-----------|---------------------|-------------|------------------|
+| RF - 1        | 2                                | Definir elementos das páginas para criar os protótipos iniciais | Realizar definição dos elementos de marcação da página | Maria Eduarda | ✔ |
+| RF - 1        | 3                                | Criar protótipos das telas no Figma | Criar protótipo de todas as páginas do site usando o Figma | Bruna e Raquel | ✔ |
+| RF - 4 / RF - 5 | 5                             | Pesquisar o conteúdo e elaborar as 20 questões que serão utilizadas e selecionadas aleatoriamente (parcial). | Pesquisar o conteúdo e elaborar as aulas/tópicos do curso | Pamela | ✔ |
+| RF - 7        | 3                                | Definir paleta de cores e contrastes para o site | Definir a paleta final para ser implementada no site usando CSS | Raquel | ✔ |
+| RF - 8        | 3                                | Elaboração da navegabilidade do site usando Figma | Definir a navegabilidade dos elementos do site | Bruna | ✔ |
+| RNF - 1       | 8                                | Desenvolver a primeira versão do index.html e criar o protótipo HTML da página de cadastro. | Usar HTML para reproduzir os elementos definidos no Figma no arquivo index.html (pagina 1) | Pollyana | ✔ |
+| RNF - 2       | 8                                | Estilizar e integrar o arquivo CSS ao index.html conforme customização definida pela equipe. | Usar CSS para estilizar o arquivo index.html (pagina 1) que foram definidos no Figma | Leandro | ✔ |
+| RNF - 4       | 6                                | Modelo Relacional do BD | Criar um arquivo de imagem, ilustrando o modelo relacional que será implementado no site. | Felipe | ✔ | ✔ |
+
 <br>
 <br>
 
 ### - Burndown Sprint 1
 ![Sprint 1 - Burndown](Documentos/burndown.png)
+
+<br>
+
+
+
+
 
 
