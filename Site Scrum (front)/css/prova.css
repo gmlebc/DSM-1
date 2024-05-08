@@ -125,21 +125,25 @@ nav ul {
     /* margin: 1px; */
     /* border: solid purple 3px; */
 }
-  
+ 
+.prova{
+    background-color: #F2CB05;
+}
 nav ul li {
     display: flex;
     justify-content: center; 
     align-items: center;
-    
 
-    background-color: #F2CB05;
+    background-color: lightgray;    
     padding: 5px;
     /* text-align: center; */
     margin: 5px;
     border: solid #0D0D0D 1px;
-}
-  
-nav ul li a {
+    
+} 
+
+
+nav ul a {
     text-decoration: none;
     color: #222;
     align-content: center;

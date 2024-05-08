@@ -40,7 +40,6 @@ header {
     justify-content: center; 
     align-items: center;
     gap: 20px;
-    border: solid purple 3px;
     padding-left: 20px;
 
 }
@@ -61,7 +60,6 @@ header {
     justify-content: center; 
     align-items: center;
     gap: 1px;
-    border: solid purple 3px;
     padding-right: 20px;
 
 }
@@ -143,11 +141,10 @@ nav ul li{
     border: solid #0a6872 1px;
 }
 
-nav ul li a {
+nav ul a {
     text-decoration: none;
     color: #222;
-    align-content: center;
-    
+    align-content: center;   
 }
 
 /* ======================================================================== */

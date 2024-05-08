@@ -139,11 +139,11 @@ nav ul li {
     background-color: #F2CB05;
 }
 
-nav ul li a {
+nav ul a {
     text-decoration: none;
     color: #222;
     align-content: center;
-
+    
 }
 #h3 {
     color: grey;
