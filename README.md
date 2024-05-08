@@ -115,7 +115,7 @@ Durante o sprint, enfrentamos alguns desafios inesperados, como desistências re
 Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando áreas específicas para melhorias e implementando ajustes conforme necessário. Ao fazer essas melhorias e aprender com os desafios enfrentados no sprint, podemos nos posicionar ainda melhor para alcançar nossos objetivos no próximo sprint.
 
 ## :page_with_curl: SPRINT 2
-<p align="justify">DESCRIÇÃO SPRINT 2.... </p>
+<p align="justify"> Na Sprint 2, criamos o Banco de Dados no PostgreSQL, para cadastrar e consultar registros, além de estruturarmos todo o HTML e CSS das páginas do site. Também referenciamos todos os links clicáveis para que a navegação do site. A estrutura do Redme.md também foi atualizada. Incluimos as informações da Sprint 2 , com Sprint Backlog e o gráfico de Burndown dessa segunda etapa do desenvolvimento do projeto.  </p>
 
 
 ### - Sprint Backlog 
