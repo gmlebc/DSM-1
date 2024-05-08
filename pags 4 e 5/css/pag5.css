@@ -154,16 +154,17 @@ nav ul li a {
     width: 800px;
     height: 30px;
     align-items: center;
-    padding: 8px;
+    padding: 12px;
     color: white;
     text-align:left;
+    position: relative;
 }
 .button {
     margin-top: 10px;
     text-align: center;
     position: relative;
     left: 10px;
-    bottom: 55px;
+    bottom: 60px;
 }
 
 
