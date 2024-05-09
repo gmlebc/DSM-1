@@ -28,10 +28,7 @@ body{
     font-family: sans-serif;
 }
 /*Estilos Comuns*/
-.container{
-    max-width: 1024px;
-    margin: 0 auto;  
-}
+
 
 /*Estilos Topo*/
 header, footer{
@@ -45,63 +42,88 @@ header, footer{
 main{
     width: 100%;
 }
-header .container{
+header {
     display: flex;
-    justify-content: space-between;   
-    border-bottom: 1px  black;   
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 10px 0 10px;
+
+    top: 0px;
+    /* text-align: center; */
+
+    height: 80px;
+    width: 100vw;
+
+    font-size: large;
+    background-color: #0D0D0D;
+    /* border-radius: 25px; */
+    /* border: solid purple 3px; */
+}
+header a {
+    text-decoration: none;
 }
 
-.logo{
-    max-width: 600px;
+.logoTitulo{
     display: flex;
+    justify-content: center; 
     align-items: center;
-    justify-content:space-evenly;
-    z-index: 1;
+    gap: 10px;
+    /* border: solid purple 3px; */
 }
-/* .logo img{
-    width: 180px;
-} */
-.logo p{
-    color: #fff;
-    font-size: 60px;
-    text-align: left;
-
-    
-}
-.entraLogin{ 
-    color:#F2CB05;
-    width: 240px ;
+.circuloLogo{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-}
-.entraLogin img{
-    width: 100px;
-    margin-bottom: 10px;
-    align-items: center;
-}
-.login-form label{
-    font-weight: 600;
-}
-.login-form .email{
-    width:151px;
-    height: 30px;
-    text-align: center;
-    border-radius: 5px;
-}
-.button{
-    margin-top: 10px;
-    text-align: center;
     cursor: pointer;
-    
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: white;
 }
-.texto-botao{
-    padding: 3px;
-    width:100px;
-    border-radius: 5px;
-    background-color:#F2CB05;
+
+h1 {
+    font-family: pangolin;
+    letter-spacing: 1px;
+
+    color: white;
 }
+.logoUser{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 1px;
+    /* border: solid purple 3px; */
+    padding-right: 20px;
+
+}
+
+.circuloUser{
+    display: flex;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: white;
+
+}
+
+.circuloUser > img{
+    scale: 1.25;
+}
+
+.logoUser p{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+
+    background-color: #F2CB05;
+    width: 100px;
+    height: 50px;
+
+}
+
 
 /*Estilos Corpo/Conteúdo*/
     /*Estilos comuns*/
@@ -195,13 +217,11 @@ header .container{
     padding: 15px;
     border-radius: 15px;
     background-color:#F2CB05 ;
-    cursor: pointer;
 }
 button{
     color:black;
     font-size: 20px;
     font-weight: bold;
-    cursor: pointer;
 }
 .homepage1 img, .homepage2 img{
     width:500px;
@@ -237,31 +257,29 @@ footer {
 
 }
 span{
-    color: white;
     font-weight: bold;
-    font-family: "Pangolin", cursive;
-    font-size: 32px;
 }
 
-/*TESTE MENU SUSPENSO
+
+/*TESTE MENU SUSPENSO*/
 .entraLogin {
-    position: relative; /*gitEstabelece um contexto de posicionamento para o formulário de login 
+    position: relative; /*gitEstabelece um contexto de posicionamento para o formulário de login */
 }
 
 .login-form {
-    display: none; /* Oculta o formulário por padrão 
+    display: none; /* Oculta o formulário por padrão */
     position: absolute;
-    top: 100%; /* Alinha o formulário abaixo da imagem de entrada de login 
+    top: 100%; /* Alinha o formulário abaixo da imagem de entrada de login */
     left: 0;
     background-color: #ffffff;
     padding: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    z-index: 1; /* Garante que o formulário esteja acima de outros elementos 
+    z-index: 1; /* Garante que o formulário esteja acima de outros elementos */
 }
 
 .entraLogin:hover .login-form {
-    display: block; /* Exibe o formulário quando o mouse está sobre a imagem de entrada de login 
+    display: block; /* Exibe o formulário quando o mouse está sobre a imagem de entrada de login */
 }
 .borda{
     width: 160px;
@@ -275,98 +293,10 @@ span{
     justify-content: center;
     z-index: -1;
 
-    /* para criar borda gradiente em IMG (onde não se pode aplicar o ::before diretamente no elemento img), cria-se uma nova div
-}*/
+    /* para criar borda gradiente em IMG (onde não se pode aplicar o ::before diretamente no elemento img), cria-se uma nova div */
+}
 .logo img{
     border-radius: 80%;
     width: 150px;
     height: 150px;
-}
-
-
-/* =================NOVO=================== */
-
-header {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-
-
-    top: 0px;
-    /* text-align: center; */
-
-    height: 80px;
-    width: 100vw;
-
-    font-size: large;
-    background-color: #0D0D0D;
-    /* border-radius: 25px; */
-    /* border: solid purple 3px; */
-}
-
-.logoTitulo{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    gap: 20px;
-    padding-left: 20px;
-
-}
-.circuloLogo{
-    display: flex;
-    cursor: pointer;
-    width: 70px;
-    height: 70px;
-    border-radius: 100%;
-    background-color: white;
-    justify-content: space-around; 
-
-
-}
-
-.logoUser{
-
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    gap: 1px;
-    padding-right: 20px;
-
-}
-
-.circuloUser{
-    display: flex;
-    cursor: pointer;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    background-color: white;
-    
-
-}
-
-.circuloUser > img{
-    scale: 1.25;
-}
-
-.logoUser> p{
-
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    cursor: pointer;
-
-    background-color: #F2CB05;
-    width: 100px;
-    height: 50px;
-
-}
-
-
-
-h1 {
-    font-family: pangolin;
-    letter-spacing: 1px;
-
-    color: white;
 }
