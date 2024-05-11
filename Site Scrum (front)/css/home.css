@@ -51,7 +51,7 @@ header {
     top: 0px;
     /* text-align: center; */
 
-    height: 80px;
+    height: 100px;
     width: 100vw;
 
     font-size: large;
@@ -212,6 +212,10 @@ h1 {
     font-weight: bold;
     color: #F2CB05;
 }
+.container button:hover{
+    cursor: pointer;
+}
+
 .separa-homepage button{
     width: 200px;
     padding: 15px;
@@ -234,9 +238,6 @@ footer {
     display: flex;
     justify-content: center; 
     align-items: center;
-
-    position: fixed;
-    bottom: 0px;
     
     /* text-align: center; */
 
