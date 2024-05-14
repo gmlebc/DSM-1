@@ -102,7 +102,7 @@
 <br>
 
 ### - Burndown Sprint 1
-![Sprint 1 - Burndown](Documentos/burndown.png)
+![Sprint 1 - Burndown](Documentos/burndown -1 Sprint.png)
 
 ### - Sprint Retrospective 
 1.	O que funcionou bem durante o sprint?
@@ -115,7 +115,7 @@ Durante o sprint, enfrentamos alguns desafios inesperados, como desistências re
 Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando áreas específicas para melhorias e implementando ajustes conforme necessário. Ao fazer essas melhorias e aprender com os desafios enfrentados no sprint, podemos nos posicionar ainda melhor para alcançar nossos objetivos no próximo sprint.
 
 ## :page_with_curl: SPRINT 2 
-<p align="justify"> Na Sprint 2, criamos o Banco de Dados no PostgreSQL, para cadastrar e consultar registros, além de estruturarmos todo o HTML e CSS das páginas do site. Também referenciamos todos os links clicáveis para que a navegação do site fosse correta e fluida. A estrutura do Redme.md também foi atualizada. Incluimos as informações da Sprint 2 , com Sprint Backlog e o gráfico de Burndown dessa segunda etapa do desenvolvimento do projeto.  </p>
+<p align="justify"> Na Sprint 2, criamos o Banco de Dados no PostgreSQL, para cadastrar e consultar registros, além de estruturarmos todo o HTML e CSS das páginas do site. Também referenciamos todos os links clicáveis para que a navegação do site fosse correta e fluida. A estrutura do Redme.md também foi atualizada. Incluimos as informações da Sprint 2 , com Sprint Backlog e o gráfico de Burndown dessa segunda etapa do desenvolvimento do projeto. </p>
 
 
 ### - Sprint Backlog 
@@ -142,24 +142,26 @@ Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando �
 
 ### - Burndown Sprint 2
 
+![Sprint 2 - Burndown](Documentos/burndown -2 Sprint.jpeg)
+
 <br>
 <br>
-## :page_with_curl: SPRINT 3 
+
+## :page_with_curl: SPRINT 3
 
 ### - Sprint Backlog 
 | ID REFERENCIA | Scrum Poker Planning | ATIVIDADE | REQUISITO DA SPRINT | Responsável | TAREFA CONCLUIDA |
 |---------------|----|---------------------------|---------------------|-------------|------------------|
-| RNF - 1       | 6  | HTML das páginas 2 e 3 | As páginas devem conter todos os elementos definidos para elas | Raquel |  ✔  |
-| RNF - 2       | 8  | CSS das páginas 2 e 3 | Seguir o padrão da estilização de acordo com o modelo visual | Raquel | ✔   |
-| RNF - 1       | 6  | HTML das páginas 4 e 5 | As páginas devem conter todos os elementos definidos para elas | Maria Eduarda |  ✔ |
-| RNF - 2       | 8  | CSS das páginas 4 e 5 | Seguir o padrão da estilização de acordo com o modelo visual | Maria Eduarda | ✔  |
-| RNF - 1       | 6  | HTML das páginas 6 e 7 | As páginas devem conter todos os elementos definidos para elas | Bruna |  ✔  |
-| RNF - 2       | 8  | CSS das páginas 6 e 7 | Seguir o padrão da estilização de acordo com o modelo visual | Bruna |  ✔  |
-| RNF - 1       | 9  | HTML das páginas 8, 9 e 10 | As páginas devem conter todos os elementos definidos para elas | Pollyana |  ✔  |
-| RNF - 2       | 12 | CSS das páginas 8, 9 e 10 | Seguir o padrão da estilização de acordo com o modelo visual | Pollyana |  ✔  |
-| RNF - 1       | 6  | HTML das páginas 11 e 12 | As páginas devem conter todos os elementos definidos para elas | Leandro |  ✔  |
-| RNF - 2       | 8  | CSS das páginas 11 e 12 | Seguir o padrão da estilização de acordo com o modelo visual | Leandro |  ✔  |
-| RF - 8        | 8  | Menu com Links | Todos os links clicáveis devem levar para suas respectivas referências | Pollyana |  ✔  |
-| RNF - 4       | 8  | Criar o Banco de Dados no PostgreSQL | Criar as tabelas no Banco de Dados para acesso PostgreSQL | Felipe | ✔ |
-| RNF - 6       | 6  | Cadastro de registros no Banco | Ser capaz de implementar o sistema de registro/inclusão de usuário no banco de dados | Felipe |  ✔ |
-| RNF - 6       | 6  | Cadastro de registros no Banco | Ser capaz de fazer consultas e retornar resultados corretamente no banco de dados | Pamela | ✔  |
+| RNF - 1       | - | Cadastrar usuário no SGBD | Deve ser possível realizar o cadastro do usuário usando nome e email | Felipe |   |
+| RNF - 2       | -  |Login de usuário no servidor| O usuário deve ser capaz de realizar login em sua conta usando nome e email | Raquel |   |
+| RNF - 1       | -  | Obter as questões no front end| Integrar JS e HTML/CSS para obter questões na página de questões | Maria Eduarda |   |
+| RNF - 2       | -  | Salvar pontuação| O sistema deve ser capaz de salvar a pontuação no BD | Maria Eduarda |   |
+| RNF - 1       | -  |Recuperar questões respondidas no servidor | O sistema deve ser capaz de guardar e consultar as questões que já foram respondidas pelo usuário| Bruna |    |
+| RNF - 2       | -  | Organização do código (CSS e JS externo; estrutura das marcações, estilos e JS)| Fazer a organização e associar o JS ao CSS | Polly e Bruna |    |
+| RNF - 1       | -  | Visual responsivo (uso de CSS média queries) |Fazer o site se adaptar bem em diferente dispositivos, melhorando a experiência do usuário | Polly |    |
+| RNF - 2       | - | Gerar certificado | Consultar as informações do usuário no site para emitir certificado, caso o usuário se qualifique para obtê-lo | Pollyana |    |
+| RNF - 1       | -  | Página de questões |O sistema deve ser capaz de exibir a página de questões| Leandro |   |
+| RNF - 2       | -  | Arquitetura da informação | Fazer um modelo/conceito de informação para detalhar o sistema | Pamela |   |
+| RF - 8        | -  | Consultas para atualizar registros|O BD deve ser persistente e ser capaz de sofrer atualizações nos registros de usuários | Pollyana |    |
+| RNF - 4       | -  | Execução do back end em linux| Usar a ferramenta da Azure para criar uma instância para fazer rodar o Linux | Leandro |  |
+
