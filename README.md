@@ -1,4 +1,4 @@
-<h1 align = "center" > Fatec Jacareí- DSM 1º SEMESTRE</h1>
+<h1 align="center">Fatec Jacareí- DSM 1º SEMESTRE</h1>
 
 # <p>Equipe: 🪄:💻: TechWizards </p>
 <br>
@@ -11,8 +11,8 @@
 | Sprint | Link        | Início      | Entrega     | Status |
 |--------|-------------|-------------|-------------|--------|
 | 01     | [Sprint 01](#sprint-1) | 25/03/2024  | 18/04/2024  | ✔      |
-| 02     | [Sprint 02](#sprint2) | 22/04/2024  | 15/05/2024  |        |
-| 03     | [Sprint 03](#sprint3) | 20/05/2024  | 12/06/2024  |        |
+| 02     | [Sprint 02](#sprint-2) | 22/04/2024  | 15/05/2024  |        |
+| 03     | [Sprint 03](#sprint-3) | 20/05/2024  | 12/06/2024  |        |
 
 <br>
 
@@ -30,24 +30,26 @@
 |------------------------|----------------------------------------------------------------------------------------------------------------|---------|
 | RF - 1                 | Criação de um protótipo do site                                                                                | #01 ✔   |
 | RF - 2                 | Criar um Cadastro de usuário para o usuário se cadastrar                                                       |         |
-| RF - 3                 | Usuário deve ser capaz de fazer Login de Acesso utilizando email cadastrado                                    |         |
-| RF - 4                 | Elaborar o Conteúdo do Curso, que será divido em aulas                                                         | #01 ✔   |
+| RF - 3                 | Usuário deve ser capaz de fazer Login de Acesso utilizando email cadastrado                                    |  |
+| RF - 4                 | Elaborar o Conteúdo do Curso, que será divido em aulas                                                         | #01 ✔ #02 ✔  |
 | RF - 5                 | Ao finalizar todas as aulas do conteúdo do curso, o usuário deve conseguir realizar uma Avaliação de Desempenho com 20 questoes que devem ser sorteadas aleatóriamente | #01 ✔   |
 | RF - 6                 | O usuário do site deve ser capaz de emitir Certificado de Conclusão ao finalizar o curso                        |         |
 | RF - 7                 | Criar o Modelo Visual do site                                                                                  | #01 ✔   |
-| RF - 8                 | Navegabilidade do site                                                                                         | #01 ✔   |
+| RF - 8                 | Navegabilidade do site                                                                                         | #01 ✔ #02 ✔  |
 
 | REQUISITO NÃO_FUNCIONAL_ID | REQUISITOS                                                                 | SPRINTS |
 |----------------------------|----------------------------------------------------|---------|
-| RNF - 1                    | Utilizar HTML5 para arquitetura da informação da aplicação                 | #01 ✔   |
-| RNF - 2                    | Utilizar CSS 3 para especificação do layout e demais características de renderização da interface com o usuário | #01 ✔   |
+| RNF - 1                    | Utilizar HTML5 para arquitetura da informação da aplicação                 | #01 ✔ #02 ✔   |
+| RNF - 2                    | Utilizar CSS 3 para especificação do layout e demais características de renderização da interface com o usuário | #01 ✔ #02 ✔   |
 | RNF - 3                    | Utilizar JavaScript no front end (obs.: não pode fazer uso de frameworks)  |         |
 | RNF - 4                    | Utilizar DB Design para fazer a modelagem do BD                            | #01 ✔   |
 | RNF - 5                    | Sistema responsivo                                                         |         |
-| RNF - 6                    | Utilizar o sistema gerenciador de banco de dados PostGresSQL               |         |
+| RNF - 6                    | Utilizar o sistema gerenciador de banco de dados PostGresSQL               |  #02 ✔ |
+
 <br>
 
 ## :page_with_curl: USER STORIES
+
 <br>
 
 | ID REFERENCIA | Remetente | Instrução | Finalidade | 
@@ -59,25 +61,29 @@
 | RF - 6        | Cliente   | Como cliente, eu quero que os usuários consigam emitir certificado após realizar uma avaliação de desempenho do curso | Para validar a finalização do curso e o conhecimento adquirido |   
 | RF - 7/ RNF-5 | Cliente   | Como cliente, quero ter um Modelo Visual do site intuitivo e responsivo | Para que os usuários tenham facilidade em navegar pelo site, independente do dispositivo pelo qual estão acessando  |   
 
+<br>
 
 ## :page_with_curl: MODELO RELACIONAL
+
 <br>
 
 ![Modelo Entidade Relacionamento](Documentos/Modelo_Conceitual_BD.png)
 
+<br>
 
-## :page_with_curl: GRUPO
+## :page_with_curl: EQUIPE
+
 <br>
 
 | NOME               | FUNÇÃO        | GITHUB                               |
 |--------------------|---------------|--------------------------------------|
-| Pollyana Roberta   | Scrum Master  | https://github.com/Pollymeowth |
-| Bruna Regra        | Project Owner | https://github.com/regrabru      |
-| Raquel Nakamura    | Developer     | https://github.com/nakamuraraquel |
-| Maria Eduarda      | Developer     | https://github.com/ferreira-me |
-| Felipe Correa      | Developer     | https://github.com/turnupthetaste |
-| Pamela Freitas     | Developer     | https://github.com/PaamFreitas18 |
-| Leandro Barbosa    | Developer     | https://github.com/gmlebc|
+| Pollyana Roberta   | Scrum Master  | [Pollymeowth](https://github.com/Pollymeowth) |
+| Bruna Regra        | Project Owner | [regrabru](https://github.com/regrabru)      |
+| Raquel Nakamura    | Developer     | [nakamuraraquel](https://github.com/nakamuraraquel) |
+| Maria Eduarda      | Developer     | [ferreira-me](https://github.com/ferreira-me) |
+| Felipe Correa      | Developer     | [turnupthetaste](https://github.com/turnupthetaste) |
+| Pamela Freitas     | Developer     | [PaamFreitas18](https://github.com/PaamFreitas18) |
+| Leandro Barbosa    | Developer     | [gmlebc](https://github.com/gmlebc)|
 
 <br>
 
@@ -87,7 +93,9 @@
 <p align="justify">Na Primeira Sprint realizamos o levantamento dos Requisitos com o cliente, através do Product Owner, para definirmos melhor os Requisitos Funcionais (RF) e os Requisitos Não Funcionais (RNF) do produto e criamos a Backlog List do produto. Através da Backlog List, criamos o Backlog da Sprint 1 e definimos as tarefas que cada um dos membros da equipe iriam executar nessa etapa. . Definimos os elementos das páginas, fazendo o protótipo das mesmas usando Figma e usamos HTML5 e CSS3 para criar o protótipo da primeira página do site. Além disso, foi criado o Modelo Entidade Relacionamento para desenvolvimento do Banco de Dados e começamos a desenvolver outras etapas, como a elaboração de conteúdos para o site, que serão implementadas nas próximas sprints. Criamos ainda o Repositório no GitHub para manter o controle das alterações feitas durante a realização do projeto e organização e o Readme.MD para apresentação do nosso projeto. </p>
 <br>
 
-### - Sprint Backlog 
+### • Sprint Backlog
+<br>
+
 | ID REFERENCIA |Pioridade (Scrum Poker Planning) | REQUISITO DA SPRINT| Responsável |TAREFA INICIADA | TAREFA CONCLUIDA | 
 |---------------|--------------------|---------------|-----------------|-----------------|------------------|
 |  RF - 1    | 2 |Definir elementos das páginas para criar os protótipos iniciais |Maria Eduarda | ✔  |✔  |
@@ -101,24 +109,38 @@
 <br>
 <br>
 
-### - Burndown Sprint 1
-![Sprint 1 - Burndown](Documentos/burndown -1 Sprint.png)
+### • Burndown Sprint 1
+<br>
 
-### - Sprint Retrospective 
-1.	O que funcionou bem durante o sprint?
+![Burndown](Documentos/burndownSprint1.png)
+
+<br>
+
+### • Sprint Retrospective 
+<br>
+
+**1. O que funcionou bem durante o sprint?**
+<br>
 Durante esta sprint, várias coisas funcionaram muito bem. Uma delas foi a colaboração da equipe. Todos estavam comprometidos e trabalhando em sincronia, o que nos permitiu alcançar nossos objetivos dentro do prazo. A comunicação melhorou significativamente, e a divisão de tarefas também, onde cada membro se dispôs a desenvolver uma parte porem o grupo inteiro aprovava no final. Isso ajudou a evitar mal-entendidos e a manter todos atualizados sobre o progresso do projeto. Também implementamos algumas novas práticas de desenvolvimento que resultaram em maior eficiência e qualidade. Esses elementos combinados contribuíram para um sprint bem-sucedido e nos deixam otimistas para os próximos desafios.
 
-2.	O que não funcionou tão bem durante o sprint?
+**2. O que não funcionou tão bem durante o sprint?**
+<br>
 Durante o sprint, enfrentamos alguns desafios inesperados, como desistências repentinas de membros da equipe, incluindo desenvolvedores e até mesmo o Scrum Master. Isso exigiu uma rápida e eficaz reorganização para garantir a continuidade do desenvolvimento e o cumprimento dos prazos de entrega.
 
-3.	Quais ações podemos tomar para melhorar no próximo sprint?
+**3. Quais ações podemos tomar para melhorar no próximo sprint?**
+<br>
 Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando áreas específicas para melhorias e implementando ajustes conforme necessário. Ao fazer essas melhorias e aprender com os desafios enfrentados no sprint, podemos nos posicionar ainda melhor para alcançar nossos objetivos no próximo sprint.
 
+
+
+<br>
+<span id="sprint-2">
+ 
 ## :page_with_curl: SPRINT 2 
-<p align="justify"> Na Sprint 2, avançamos significativamente no desenvolvimento do projeto. Começamos criando as tabelas no banco de dados PostgreSQL para gerenciar o cadastro e consulta de registros, assegurando que todas as consultas retornem resultados corretos. Além disso, dedicamos esforços à estilização das páginas do site, garantindo que todos os elementos estejam conforme o modelo visual estabelecido. Para uma experiência de navegação suave, todos os links foram devidamente referenciados, garantindo que levem aos seus destinos apropriados. Também não esquecemos de atualizar a estrutura do README.md, incluindo detalhes relevantes sobre a Sprint 2, como o Sprint Backlog e o gráfico de Burndown, proporcionando uma visão clara do progresso alcançado nesta etapa do projeto. </p>
+ <p align="justify">Na Sprint 2, avançamos significativamente no desenvolvimento do projeto. Começamos criando as tabelas no banco de dados PostgreSQL para gerenciar o cadastro e consulta de registros, assegurando que todas as consultas retornem resultados corretos. Além disso, dedicamos esforços à estilização das páginas do site, garantindo que todos os elementos estejam conforme o modelo visual estabelecido. Para uma experiência de navegação suave, todos os links foram devidamente referenciados, garantindo que levem aos seus destinos apropriados. Também não esquecemos de atualizar a estrutura do README.md, incluindo detalhes relevantes sobre a Sprint 2, como o Sprint Backlog e o gráfico de Burndown, proporcionando uma visão clara do progresso alcançado nesta etapa do projeto.</p>
 
 
-### - Sprint Backlog 
+### • Sprint Backlog 
 | ID REFERENCIA | Scrum Poker Planning | ATIVIDADE | REQUISITO DA SPRINT | Responsável | TAREFA CONCLUIDA |
 |---------------|----|---------------------------|---------------------|-------------|------------------|
 | RNF - 1       | 6  | HTML das páginas 2 e 3 | As páginas devem conter todos os elementos definidos para elas | Raquel |  ✔  |
@@ -140,16 +162,18 @@ Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando �
 <br>
 <br>
 
-### - Burndown Sprint 2
+### • Burndown Sprint 2
+<br>
 
-![Sprint 2 - Burndown](Documentos/burndown -2 Sprint.jpeg)
+![Burndown](Documentos/burndownSprint2.png)
 
 <br>
-<br>
+
+<span id="sprint-3">
 
 ## :page_with_curl: SPRINT 3
 
-### - Sprint Backlog 
+### • Sprint Backlog 
 | ID REFERENCIA | Scrum Poker Planning | ATIVIDADE | REQUISITO DA SPRINT | Responsável | TAREFA CONCLUIDA |
 |---------------|----|---------------------------|---------------------|-------------|------------------|
 | RNF - 1       | - | Cadastrar usuário no SGBD | Deve ser possível realizar o cadastro do usuário usando nome e email | Felipe |   |
@@ -164,4 +188,3 @@ Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando �
 | RNF - 2       | -  | Arquitetura da informação | Fazer um modelo/conceito de informação para detalhar o sistema | Pamela |   |
 | RF - 8        | -  | Consultas para atualizar registros|O BD deve ser persistente e ser capaz de sofrer atualizações nos registros de usuários | Pollyana |    |
 | RNF - 4       | -  | Execução do back end em linux| Usar a ferramenta da Azure para criar uma instância para fazer rodar o Linux | Leandro |  |
-
