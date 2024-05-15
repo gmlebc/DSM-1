@@ -11,7 +11,7 @@
 | Sprint | Link        | Início      | Entrega     | Status |
 |--------|-------------|-------------|-------------|--------|
 | 01     | [Sprint 01](#sprint-1) | 25/03/2024  | 18/04/2024  | ✔      |
-| 02     | [Sprint 02](#sprint-2) | 22/04/2024  | 15/05/2024  |        |
+| 02     | [Sprint 02](#sprint-2) | 22/04/2024  | 15/05/2024  |  ✔     |
 | 03     | [Sprint 03](#sprint-3) | 20/05/2024  | 12/06/2024  |        |
 
 <br>
@@ -157,7 +157,7 @@ Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando �
 | RF - 8        | 8  | Menu com Links | Todos os links clicáveis devem levar para suas respectivas referências | Pollyana |  ✔  |
 | RNF - 4       | 8  | Criar o Banco de Dados no PostgreSQL | Criar as tabelas no Banco de Dados para acesso PostgreSQL | Felipe | ✔ |
 | RNF - 6       | 6  | Cadastro de registros no Banco | Ser capaz de implementar o sistema de registro/inclusão de usuário no banco de dados | Felipe |  ✔ |
-| RNF - 6       | 6  | Cadastro de registros no Banco | Ser capaz de fazer consultas e retornar resultados corretamente no banco de dados | Pamela | ✔  |
+| RNF - 6       | 6  | Consulta para listar os registros do Banco | Ser capaz de fazer consultas e retornar resultados corretamente no banco de dados | Pamela | ✔  |
 
 
 <br>
