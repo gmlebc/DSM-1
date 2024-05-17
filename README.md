@@ -161,7 +161,6 @@ Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando �
 
 
 <br>
-<br>
 
 ### • Burndown Sprint 2
 <br>
@@ -183,6 +182,7 @@ Falta do conhecimento necessário para a execução da página contendo todas as
 **3. Quais ações podemos tomar para melhorar no próximo sprint?**
 <br>
 Otimização do Burndown focando manter as entregas dentro do eixo ideal. Além disso, elaborarar uma apresentação mais focada no produto, ao invés, de no processo de desenvolvimento gerando mais valor para o cliente.  
+<br>
 
 <span id="sprint-3">
 
