@@ -170,6 +170,20 @@ Podemos revisar e aprimorar nossas práticas de desenvolvimento, identificando �
 
 <br>
 
+### • Sprint Retrospective 
+<br>
+
+**1. O que funcionou bem durante o sprint?**
+Conseguimos padronizar uma base sólida de HTML e CSS para as páginas, o que é crucial para garantir consistência e facilitar a manutenção. Além disso, a conexão dos links foi bem-sucedida, permitindo uma navegação eficaz entre as diferentes partes do sistema. A criação das tabelas de banco de dados foi outro ponto positivo, fornecendo uma estrutura robusta para o gerenciamento de dados. Por fim, a garantia de que todas as consultas retornem resultados corretos demonstra um cuidado meticuloso com a integridade dos dados e uma compreensão sólida dos requisitos do projeto. Esses sucessos refletem um trabalho eficiente e bem executado durante o sprint.
+
+**2. O que não funcionou tão bem durante o sprint?**
+<br>
+Falta do conhecimento necessário para a execução da página contendo todas as conexões de JavaScript e Banco de Dados integradas. Por esse motivo, deixando um pouco a desejar no avanço de todas as etapas do desenvolvimento e apresentação da página web funcionando. Durante o sprint também enfrentamos um desafio ao tentar gerar o burndown no site do Trello. Encontramos dificuldades devido à vinculação automática da sprint 1 com a sprint 2, o que gerou um pequeno emaranhado nas informações e que foi resolvido posteriormente.  
+
+**3. Quais ações podemos tomar para melhorar no próximo sprint?**
+<br>
+Otimização do Burndown focando manter as entregas dentro do eixo ideal. Além disso, elaborarar uma apresentação mais focada no produto, ao invés, de no processo de desenvolvimento gerando mais valor para o cliente.  
+
 <span id="sprint-3">
 
 ## :page_with_curl: SPRINT 3
