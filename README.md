@@ -184,7 +184,7 @@ Falta do conhecimento necessário para a execução da página contendo todas as
 Otimização do Burndown focando manter as entregas dentro do eixo ideal. Além disso, elaborarar uma apresentação mais focada no produto, ao invés, de no processo de desenvolvimento gerando mais valor para o cliente.  
 <br>
 
-<span id="sprint-3">     1, 1, 2, 3, 5, 8, 13, 21, 
+<span id="sprint-3">   
 
 ## :page_with_curl: SPRINT 3
 
@@ -196,7 +196,7 @@ Otimização do Burndown focando manter as entregas dentro do eixo ideal. Além 
 | RNF - 1       | 13 | Obter as questões no front end| Integrar JS e HTML/CSS para obter questões na página de questões | Maria Eduarda e Raquel  |   |
 | RNF - 2       | 13 | Salvar pontuação| O sistema deve ser capaz de salvar a pontuação no BD | Pamela|   |
 | RNF - 1       | 13 |Recuperar questões respondidas no servidor | O sistema deve ser capaz de guardar e consultar as questões que já foram respondidas pelo usuário| Felipe |    |
-| RNF - 2       | 13 | Organização do código (CSS e JS externo; estrutura das marcações, estilos e JS)| Fazer a organização e associar o JS ao CSS | Polly e Bruna |    |
+| RNF - 2       | 21 | Organização do código (CSS e JS externo; estrutura das marcações, estilos e JS)| Fazer a organização e associar o JS ao CSS | Polly e Bruna |    |
 | RNF - 1       | 13 | Visual responsivo (uso de CSS média queries) |Fazer o site se adaptar bem em diferente dispositivos, melhorando a experiência do usuário | Polly e Leandro |    |
 | RNF - 2       | 8  | Gerar certificado | Consultar as informações do usuário no site para emitir certificado, caso o usuário se qualifique para obtê-lo | Raquel |    |
 | RNF - 1       | 8  | Página de questões |O sistema deve ser capaz de exibir a página de questões| Maria Eduarda e Bruna|   |
