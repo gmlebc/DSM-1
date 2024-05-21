@@ -12,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-
+    <script src="./js/geral.js" ></script>
+    <script src="./js/cadastro.js"> </script>
 </head>
 
 
@@ -35,14 +36,14 @@
                     <div><h2>Cadastro</h2></div>
                     <div class="label">
                         <label>Nome</label>
-                        <input type="name" name="name" />
+                        <input id="nome" type="text" name="name" />
                     </div>
                     <div class="label">
                         <label>E-mail</label>
-                        <input type="email" name="mail" />
+                        <input id="mail" type="email" name="mail" />
                     </div>
                     <div id="botoes">
-                        <a href="../html/Perfil.html"><input type="submit" value="Entrar" class="botao"/></a>
+                        <button onclick="salvarUsuario()" class="botao"> botao </button>
                     </div>
                 </fieldset>
             </form>
