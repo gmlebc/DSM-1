@@ -184,22 +184,22 @@ Falta do conhecimento necessário para a execução da página contendo todas as
 Otimização do Burndown focando manter as entregas dentro do eixo ideal. Além disso, elaborarar uma apresentação mais focada no produto, ao invés, de no processo de desenvolvimento gerando mais valor para o cliente.  
 <br>
 
-<span id="sprint-3">
+<span id="sprint-3">     1, 1, 2, 3, 5, 8, 13, 21, 
 
 ## :page_with_curl: SPRINT 3
 
 ### • Sprint Backlog 
 | ID REFERENCIA | Scrum Poker Planning | ATIVIDADE | REQUISITO DA SPRINT | Responsável | TAREFA CONCLUIDA |
 |---------------|----|---------------------------|---------------------|-------------|------------------|
-| RNF - 1       | - | Cadastrar usuário no SGBD | Deve ser possível realizar o cadastro do usuário usando nome e email | Felipe |   |
-| RNF - 2       | -  |Login de usuário no servidor| O usuário deve ser capaz de realizar login em sua conta usando nome e email | Raquel |   |
-| RNF - 1       | -  | Obter as questões no front end| Integrar JS e HTML/CSS para obter questões na página de questões | Maria Eduarda |   |
-| RNF - 2       | -  | Salvar pontuação| O sistema deve ser capaz de salvar a pontuação no BD | Maria Eduarda |   |
-| RNF - 1       | -  |Recuperar questões respondidas no servidor | O sistema deve ser capaz de guardar e consultar as questões que já foram respondidas pelo usuário| Bruna |    |
-| RNF - 2       | -  | Organização do código (CSS e JS externo; estrutura das marcações, estilos e JS)| Fazer a organização e associar o JS ao CSS | Polly e Bruna |    |
-| RNF - 1       | -  | Visual responsivo (uso de CSS média queries) |Fazer o site se adaptar bem em diferente dispositivos, melhorando a experiência do usuário | Polly |    |
-| RNF - 2       | - | Gerar certificado | Consultar as informações do usuário no site para emitir certificado, caso o usuário se qualifique para obtê-lo | Pollyana |    |
-| RNF - 1       | -  | Página de questões |O sistema deve ser capaz de exibir a página de questões| Leandro |   |
-| RNF - 2       | -  | Arquitetura da informação | Fazer um modelo/conceito de informação para detalhar o sistema | Pamela |   |
-| RF - 8        | -  | Consultas para atualizar registros|O BD deve ser persistente e ser capaz de sofrer atualizações nos registros de usuários | Pollyana |    |
-| RNF - 4       | -  | Execução do back end em linux| Usar a ferramenta da Azure para criar uma instância para fazer rodar o Linux | Leandro |  |
+| RNF - 1       | 5  | Cadastrar usuário no SGBD | Deve ser possível realizar o cadastro do usuário usando nome e email | Felipe |   |
+| RNF - 2       | 5  |Login de usuário no servidor| O usuário deve ser capaz de realizar login em sua conta usando nome e email | Felipe |   |
+| RNF - 1       | 13 | Obter as questões no front end| Integrar JS e HTML/CSS para obter questões na página de questões | Maria Eduarda e Raquel  |   |
+| RNF - 2       | 13 | Salvar pontuação| O sistema deve ser capaz de salvar a pontuação no BD | Pamela|   |
+| RNF - 1       | 13 |Recuperar questões respondidas no servidor | O sistema deve ser capaz de guardar e consultar as questões que já foram respondidas pelo usuário| Felipe |    |
+| RNF - 2       | 13 | Organização do código (CSS e JS externo; estrutura das marcações, estilos e JS)| Fazer a organização e associar o JS ao CSS | Polly e Bruna |    |
+| RNF - 1       | 13 | Visual responsivo (uso de CSS média queries) |Fazer o site se adaptar bem em diferente dispositivos, melhorando a experiência do usuário | Polly e Leandro |    |
+| RNF - 2       | 8  | Gerar certificado | Consultar as informações do usuário no site para emitir certificado, caso o usuário se qualifique para obtê-lo | Raquel |    |
+| RNF - 1       | 8  | Página de questões |O sistema deve ser capaz de exibir a página de questões| Maria Eduarda e Bruna|   |
+| RNF - 2       | 8  | Arquitetura da informação | Fazer um modelo/conceito de informação para detalhar o sistema | Pamela |   |
+| RF - 8        |  8 | Consultas para atualizar registros|O BD deve ser persistente e ser capaz de sofrer atualizações nos registros de usuários |Leandro e Felipe |    |
+| RNF - 4       | 13 | Execução do back end em linux| Usar a ferramenta da Azure para criar uma instância para fazer rodar o Linux | Leandro |  |
