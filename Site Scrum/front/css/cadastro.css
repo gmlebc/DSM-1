@@ -7,7 +7,6 @@ body {
     font-family: Arial, sans-serif;
     /* font-size: large; */
 }
-
 /* ======================================================================== */
 /* ======================= HTML PARA TESTE DE ROLAGEM ===================== */
 
@@ -20,7 +19,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
 
     top: 0px;
@@ -34,17 +33,20 @@ header {
     /* border-radius: 25px; */
     /* border: solid purple 3px; */
 }
-a{
+
+a {
     text-decoration: none;
 }
-.logoTitulo{
+
+.logoTitulo {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     gap: 10px;
     /* border: solid purple 3px; */
 }
-.circuloLogo{
+
+.circuloLogo {
     display: flex;
     cursor: pointer;
     width: 70px;
@@ -67,7 +69,7 @@ h1 {
 footer {
 
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 
     position: fixed;
@@ -93,14 +95,14 @@ footer {
 }
 
 /* -------------------RAQUEL---------------------- */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,7 +110,7 @@ body{
     position: fixed;
 }
 
-.cadastro{
+.cadastro {
     /* margin: 200px auto; */
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -121,10 +123,12 @@ body{
     justify-content: center;
 
 }
-form{
+
+form {
     border: 2px solid #1BAFBF;
 }
-fieldset{
+
+fieldset {
     width: 600px;
     height: 400px;
     background-color: #1BAFBF;
@@ -134,20 +138,21 @@ fieldset{
     flex-direction: column;
     justify-content: center;
     margin: 20px;
-   
-}
-fieldset div{
- margin: 5px 0; 
- padding: 10px;
- background-color: #1BAFBF;
+
 }
 
-fieldset h2{
+fieldset div {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #1BAFBF;
+}
+
+fieldset h2 {
     font-size: 30px;
     color: #FFFF;
 }
 
-.label{
+.label {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -155,33 +160,38 @@ fieldset h2{
     margin: 0 auto;
     /* height: 50px;
     width: 300px; */
-    
+
 }
 
-.label label{
+.label label {
     font-size: 20px;
     font-style: initial;
     font-weight: 80;
 }
 
-.label input{
+.label input {
     height: 35px;
     width: 300px;
     border: none;
 }
-#botoes input:hover{
+
+#botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao:hover {
     cursor: pointer;
 }
-#botoes input{
+
+.botao {
     padding: 10px;
     font-size: 20px;
+    text-align: center;
     /* font-style: bold;
     font-weight: bold; */
     text-transform: uppercase;
     background-color: #F2D022;
-    width: 125px;
     border: none;
 }
-
-
-
