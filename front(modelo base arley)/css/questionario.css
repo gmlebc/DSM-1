@@ -1,42 +1,161 @@
+/* ======================================================================== */
+/* ============================= BODY ===================================== */
+
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  height: 100vh;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* font-size: large; */
 }
+/* ======================================================================== */
+/* ============================= HEADER =================================== */
 
-#bar {
+header {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between; 
   align-items: center;
-  justify-content: flex-end;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 60px;
-  padding: 0px 10px;
-  z-index: 1000; /* Para garantir que o menu esteja acima de outros elementos */
-  border-bottom: 1px solid #aaa;
-  background-color: #ffe;
-  box-sizing: border-box;
+
+  top: 0px;
+  /* text-align: center; */
+
+  height: 100px;
+  width: 100vw;
+
+  font-size: large;
+  background-color: #0D0D0D;
+  /* border-radius: 25px; */
+  /* border: solid purple 3px; */
+}
+header a{
+  text-decoration: none;
 }
 
-.box {
+.logoTitulo{
   display: flex;
-  flex-direction: column;
-  border-radius: 5px;
-  border: 1px solid #888;
-  padding: 20px;
-  margin: 20px 0px;
+  justify-content: center; 
+  align-items: center;
+  gap: 10px;
+  /* border: solid purple 3px; */
+}
+.circuloLogo{
+  display: flex;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.logoUser{
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 1px;
+  /* border: solid purple 3px; */
+
+}
+.logoUser p{
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+
+  background-color: #F2CB05;
+  width: 100px;
+  height: 50px;
+}
+
+.circuloUser{
+  display: flex;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: white;
+
+}
+
+.circuloUser > img{
+  scale: 1.25;
+}
+
+.logoUser> p{
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  cursor: pointer;
+
+  background-color: #F2CB05;
+  width: 100px;
+  height: 50px;
+
+}
+
+
+
+h1 {
+  font-family: pangolin;
+  letter-spacing: 1px;
+
+  color: white;
+}
+/* ======================================================================== */
+/* ============================== NAV ===================================== */
+nav {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 10vw;
+  height: 100vh;
+  
+  background-color: #1BAFBF;
+  /* border-radius: 25px; */
+  /* border: solid green 1px; */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+
+
+  /* background-color: #F2CB05; */
+  /* margin: 1px; */
+  /* border: solid purple 3px; */
+}
+
+
+nav ul li {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+  background-color: lightgray;    
+  padding: 5px;
+  /* text-align: center; */
+  margin: 5px;
+  border: solid #0D0D0D 1px;
+  
+} 
+
+
+nav ul a {
+  text-decoration: none;
+  color: #222;
+  align-content: center;
+  
 }
 
 #saida,
 .questao {
+  
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+
 }
 
 .linha-enunciado {
@@ -69,7 +188,7 @@ input {
 a {
   text-decoration: none;
   color: #007bff;
-  font-weight: bold;
+  
 }
 
 .botao {
@@ -89,4 +208,89 @@ a {
 
 .botao:active {
   background-color: #0056b3; /* Cor de fundo ao clicar */
+}
+
+/* ======================================================================== */
+/* ============================== MAIN ==================================== */
+
+main {
+
+  padding-bottom: 1000px;
+
+  overflow-y: auto;
+
+  position: fixed;
+  top: 100px;
+  left: 12vw;
+  bottom: 60px;
+  right: 20px;
+
+  width: 0vp;
+
+  padding: 5px;
+
+  margin: 15px;
+
+  border: solid #1BAFBF 3px;
+
+  /* padding: 5px; */
+  /* margin: 10px; */
+
+
+  /* margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 170px;
+  margin-right: 30px;
+  padding: 30px; */
+
+  /* border-radius: 25px; */
+  /* border: solid blue 5px; */
+
+/* ======================================================================== */
+/* ============================== SECTIONS ================================ */
+
+}
+section {
+
+  position: relative;
+  padding: 5px;
+
+  font-size: larger;
+  /* border: solid #F2CB05 1px; */
+  
+
+}
+
+section > h2{
+  color: #1BAFBF;
+}
+/* ======================================================================== */
+/* ============================== FOOTER ================================== */
+
+footer {
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+  position: fixed;
+  bottom: 0px;
+  
+  /* text-align: center; */
+
+  padding: 0px;
+  width: 100vw;
+  height: 40px;
+
+  /* position: fixed;
+  bottom: 0;
+  text-align: center;
+  height: 5vh;
+  width: 100vw; */
+
+  color: white;
+  background-color: #0D0D0D;
+  /* border-radius: 25px; */
+  /* border: solid red 3px; */
+
 }
