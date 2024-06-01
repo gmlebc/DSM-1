@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +9,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <script src="js/geral.js"></script>
     <script src="js/cadastro.js"></script>
-    
 </head>
-
 
 <body>
     <header>
@@ -36,15 +32,18 @@
                 <fieldset>
                     <div><h2>Cadastro</h2></div>
                     <div class="label">
-                        <label>Nome</label>
-                        <input id="nome" type="text" name="name" />
+                        <label>Nome:</label>
+                        <input id="nome" type="text" name="name" required />
                     </div>
                     <div class="label">
-                        <label>E-mail</label>
-                        <input id="mail" type="email" name="mail" />
+                        <label>E-mail:</label>
+                        <input id="mail" type="email" name="mail" required />
                     </div>
-                    <div class="botoes" id="botoes">
+                    <div class="botoes">
                         <button onclick="salvarUsuario()" class="botao">Cadastrar </button>
+                    </div>
+                    <div class="comLogin">
+                        <p>Já tem login? <a href="login.html">Clique aqui</a></p>
                     </div>
                 </fieldset>
             </form>
@@ -54,6 +53,5 @@
     <footer>
         <p>Desenvolvido por TechWizards</p>
     </footer>
-
 </body>
 </html>
