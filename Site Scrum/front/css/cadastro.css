@@ -7,12 +7,6 @@ body {
     font-family: Arial, sans-serif;
     /* font-size: large; */
 }
-/* ======================================================================== */
-/* ======================= HTML PARA TESTE DE ROLAGEM ===================== */
-
-/* html{
-    padding-bottom: 1000px;
-} */
 
 /* ======================================================================== */
 /* ============================= HEADER =================================== */
@@ -23,7 +17,7 @@ header {
     align-items: center;
 
     top: 0px;
-    /* text-align: center; */
+
 
     height: 100px;
     width: 100vw;
@@ -110,7 +104,7 @@ body {
     position: fixed;
 }
 
-.cadastro {
+.cadastro, .login {
     /* margin: 200px auto; */
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -158,9 +152,6 @@ fieldset h2 {
     text-align: left;
     justify-content: center;
     margin: 0 auto;
-    /* height: 50px;
-    width: 300px; */
-
 }
 
 .label label {
@@ -168,7 +159,6 @@ fieldset h2 {
     font-style: initial;
     font-weight: 80;
 }
-
 .label input {
     height: 35px;
     width: 300px;
@@ -189,9 +179,17 @@ fieldset h2 {
     padding: 10px;
     font-size: 20px;
     text-align: center;
-    /* font-style: bold;
-    font-weight: bold; */
     text-transform: uppercase;
     background-color: #F2D022;
     border: none;
+}
+
+.semCadastro{
+    font-size: 20px;
+}
+
+.semCadastro a{
+    font-style: italic;
+    color: #F2D022;
+    font-weight: bolder;
 }

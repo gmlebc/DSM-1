@@ -20,5 +20,5 @@ function logout() {
 
 function login() {
   // Redireciona para a página de login
-  window.location.href = "../login.html";
+  window.location.href = "./login.html";
 }

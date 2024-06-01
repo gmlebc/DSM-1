@@ -5,13 +5,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechWizards - Login</title>
+    <title>TechWizards - login</title>
 
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cadastro.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <script src="js/geral.js"></script>
+    <script src="js/login.js"></script>
 
 </head>
 
@@ -30,19 +32,19 @@
 
     <main>
         <div class="login">
-            <form>
+            <form onsubmit="logar(); return false;">
                 <fieldset>
                     <div><h2>Login</h2></div>
-                    <div class="label">
+                    <!-- <div class="label">
                         <label>Nome</label>
-                        <input type="name" name="name" />
-                    </div>
+                        <input id="nome" type="text" name="name" />
+                    </div> -->
                     <div class="label">
                         <label>E-mail</label>
-                        <input type="email" name="mail" />
+                        <input id="mail" type="email" name="mail" required/>
                     </div>
-                    <div id="botoes">
-                        <a href="Perfil.html"><input type="submit" value="Entrar" class="botao" /></a>
+                    <div class="botoes" id="botoes">
+                        <button onclick="logar()" class="botao">ENTRAR </button>
                     </div>
                     <div class="semCadastro">
                         <p>Ainda não tem cadastro? <a href="cadastro.html">Clique aqui</p></a>
