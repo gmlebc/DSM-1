@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <script src="js/geral.js"></script>
 
 </head>
-<body>
+<body onload="carregarLogin();listarQuestao();">
     <header>
         <div class="logoTitulo">
             <a href="home.html">
@@ -22,13 +23,11 @@
             <a href="home.html"><h1>TechWizards</h1></a>
         </div>
 
-        <div class="logoUser">
-            <a href="login.html">
+        <div class="logoUser"  id="botao-login" class="botao" onclick="login()">
                 <div class="circuloUser">
                     <img src="assets/user.svg" alt="">
-                </div>
-            </a>    
-            <a href="login.html"><p>Entrar</p></a>
+                </div> 
+                <p>Entrar</p>
         </div>
 
     </header>

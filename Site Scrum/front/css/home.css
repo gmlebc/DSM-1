@@ -55,6 +55,8 @@ header a {
     align-items: center;
     gap: 20px;
     padding-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .circuloUser {
