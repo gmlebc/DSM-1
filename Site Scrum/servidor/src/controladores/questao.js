@@ -6,7 +6,7 @@ async function listarQuestao(req, res) {
     `SELECT idquestao, enunciado 
      FROM tbquestao 
      ORDER BY RANDOM() 
-     LIMIT 4`
+     LIMIT 20`
   );
 
   return res.json(resposta.rows);
