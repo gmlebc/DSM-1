@@ -191,15 +191,15 @@ Otimização do Burndown focando manter as entregas dentro do eixo ideal. Além 
 ### • Sprint Backlog 
 | ID REFERENCIA | Scrum Poker Planning | ATIVIDADE | REQUISITO DA SPRINT | Responsável | TAREFA CONCLUIDA |
 |---------------|----|---------------------------|---------------------|-------------|------------------|
-| RNF - 1       | 5  | Cadastrar usuário no SGBD | Deve ser possível realizar o cadastro do usuário usando nome e email | Felipe |   |
-| RNF - 2       | 5  |Login de usuário no servidor| O usuário deve ser capaz de realizar login em sua conta usando nome e email | Felipe |   |
-| RNF - 1       | 13 | Obter as questões no front end| Integrar JS e HTML/CSS para obter questões na página de questões | Maria Eduarda e Raquel  |   |
+| RNF - 1       | 5  | Cadastrar usuário no SGBD | Deve ser possível realizar o cadastro do usuário usando nome e email | Felipe | ✔  |
+| RNF - 2       | 5  | Login de usuário no servidor| O usuário deve ser capaz de realizar login em sua conta usando nome e email | Felipe |   |
+| RNF - 1       | 13 | Obter as questões no front end| Integrar JS e HTML/CSS para obter questões na página de questões | Maria Eduarda e Raquel  | ✔  |
 | RNF - 2       | 13 | Salvar pontuação| O sistema deve ser capaz de salvar a pontuação no BD | Pamela|   |
-| RNF - 1       | 13 |Recuperar questões respondidas no servidor | O sistema deve ser capaz de guardar e consultar as questões que já foram respondidas pelo usuário| Felipe |    |
-| RNF - 2       | 21 | Organização do código (CSS e JS externo; estrutura das marcações, estilos e JS)| Fazer a organização e associar o JS ao CSS | Polly e Bruna |    |
-| RNF - 1       | 13 | Visual responsivo (uso de CSS média queries) |Fazer o site se adaptar bem em diferente dispositivos, melhorando a experiência do usuário | Polly e Leandro |    |
+| RNF - 1       | 13 | Recuperar questões respondidas no servidor | O sistema deve ser capaz de guardar e consultar as questões que já foram respondidas pelo usuário| Felipe |    |
+| RNF - 2       | 21 | Organização do código (CSS e JS externo; estrutura das marcações, estilos e JS)| Fazer a organização e associar o JS ao CSS | Polly e Bruna |   |
+| RNF - 1       | 13 | Visual responsivo (uso de CSS média queries) |Fazer o site se adaptar bem em diferente dispositivos, melhorando a experiência do usuário | Polly e Leandro | ✔  |
 | RNF - 2       | 8  | Gerar certificado | Consultar as informações do usuário no site para emitir certificado, caso o usuário se qualifique para obtê-lo | Raquel |    |
-| RNF - 1       | 8  | Página de questões |O sistema deve ser capaz de exibir a página de questões| Maria Eduarda e Bruna|   |
-| RNF - 2       | 8  | Arquitetura da informação | Fazer um modelo/conceito de informação para detalhar o sistema | Pamela |   |
-| RF - 8        |  8 | Consultas para atualizar registros|O BD deve ser persistente e ser capaz de sofrer atualizações nos registros de usuários |Leandro e Felipe |    |
+| RNF - 1       | 8  | Página de questões |O sistema deve ser capaz de exibir a página de questões| Maria Eduarda e Bruna| ✔  |
+| RNF - 2       | 8  | Arquitetura da informação | Fazer um modelo/conceito de informação para detalhar o sistema | Pamela | ✔ |
+| RF - 8        |  8 | Consultas para atualizar registros|O BD deve ser persistente e ser capaz de sofrer atualizações nos registros de usuários |Leandro e Felipe |  ✔  |
 | RNF - 4       | 13 | Execução do back end em linux| Usar a ferramenta da Azure para criar uma instância para fazer rodar o Linux | Leandro |  |
