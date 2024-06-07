@@ -18,10 +18,9 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color: rgb(0, 0, 0);
     font-weight: bold;
-
 }
 
 .title{
@@ -30,23 +29,24 @@ body {
     margin-bottom: 20px;
     color: #000000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    border: 2px solid red;
 }
 
-.certificado h1 {
-
+.conteudo, .aprovado{
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    
+}
+.conteudo div{
+    border-bottom: 2px solid black;
 }
 
 span {
     font-family: cursive;
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 100;
     color: #1BAFBF;
 }
 .conteudo p, .conteudo div{
     display: inline;
-}
-.aprovado{
-    font-size: 18px;
-    
 }
