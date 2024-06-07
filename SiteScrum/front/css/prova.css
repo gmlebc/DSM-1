@@ -1,14 +1,11 @@
-/* main 80 lateral 20 */
-/* meio 60 lateral */
-
-
 /* ======================================================================== */
 /* ============================= BODY ===================================== */
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
     /* font-size: large; */
 }
 
@@ -24,137 +21,128 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between; 
     align-items: center;
-
-    top: 0px;
-    /* text-align: center; */
-
-    height: 100px;
-    width: 100vw;
-
-    font-size: large;
+    justify-content: space-between;
+    min-height: 100px;
+    width: 100%;
     background-color: #0D0D0D;
-    /* border-radius: 25px; */
-    /* border: solid purple 3px; */
-}
-header a{
-    text-decoration: none;
 }
 
-.logoTitulo{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    gap: 10px;
-    /* border: solid purple 3px; */
-}
-.circuloLogo{
-    display: flex;
+header a {
+    text-decoration: none;
     cursor: pointer;
+}
+
+.logoTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.circuloLogo {
+    display: flex;
     width: 70px;
     height: 70px;
     border-radius: 100%;
     background-color: white;
+    justify-content: space-around;
 }
 
 .logoUser{
-
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    gap: 1px;
-    /* border: solid purple 3px; */
-
-}
-.logoUser p{
-
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-
-    background-color: #F2CB05;
-    width: 100px;
-    height: 50px;
+    gap: 20px;
+    padding-right: 20px;
 }
 
-.circuloUser{
+.circuloUser {
     display: flex;
-    cursor: pointer;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 100%;
     background-color: white;
-
+    justify-content: space-around;
 }
 
-.circuloUser > img{
-    scale: 1.25;
+.circuloUser img {
+    scale: 1.4;
 }
 
-.logoUser> p{
+.logoUser p {
 
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    cursor: pointer;
+    color: black;
 
     background-color: #F2CB05;
     width: 100px;
     height: 50px;
-
 }
-
-
 
 h1 {
     font-family: pangolin;
     letter-spacing: 1px;
-
     color: white;
 }
+/* ======================================================================== */
+/* ============================== MAIN ==================================== */
 
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    overflow: hidden;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/*p {
+    font-size: 20px;
+    padding: 5px;
+}/*
 
 /* ======================================================================== */
 /* ============================== NAV ===================================== */
+
 nav {
-    position: fixed;
-    top: 100px;
-    left: 0;
-    width: 10vw;
-    height: 100vh;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 182px;
+    height: 100%;
     background-color: #1BAFBF;
-    /* border-radius: 25px; */
-    /* border: solid green 1px; */
+    border-right: 1px solid #0a6872;
+    box-shadow: 1px 1px 5px 0.1px rgba(88, 87, 87, 0.75);
 }
   
 nav ul {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
-    padding: 0;
-
-
-    /* background-color: #F2CB05; */
-    /* margin: 1px; */
-    /* border: solid purple 3px; */
+    margin-top: 30px;
+    padding: 6px;
+    width: 80%;
+    height: 100%;
 }
  
 .prova{
     background-color: #F2CB05;
 }
+
 nav ul li {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-
-    background-color: lightgray;    
-    padding: 5px;
-    /* text-align: center; */
-    margin: 5px;
-    border: solid #0D0D0D 1px;
-    
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    margin: 6px;
+    border: 1px solid #0a6872;
+    box-shadow: 1px 1px 5px rgba(88, 87, 87, 0.75);
 } 
 
 
@@ -162,45 +150,8 @@ nav ul a {
     text-decoration: none;
     color: #222;
     align-content: center;
+    width: 100%;
     
-}
-
-/* ======================================================================== */
-/* ============================== MAIN ==================================== */
-
-main {
-
-    padding-bottom: 1000px;
-
-    overflow-y: auto;
-
-    position: fixed;
-    top: 100px;
-    left: 12vw;
-    bottom: 60px;
-    right: 20px;
-
-    width: 0vp;
-
-    padding: 5px;
-
-    margin: 15px;
-
-    border: solid #1BAFBF 3px;
-
-    /* padding: 5px; */
-    /* margin: 10px; */
-
-
-    /* margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 170px;
-    margin-right: 30px;
-    padding: 30px; */
-
-    /* border-radius: 25px; */
-    /* border: solid blue 5px; */
-
 }
 
 
@@ -208,18 +159,26 @@ main {
 /* ============================== SECTIONS ================================ */
 
 section {
-
-    position: relative;
-    padding: 5px;
-
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    flex-grow: 1;
     font-size: larger;
-    /* border: solid #F2CB05 1px; */
-    
-
+    width: 20%;
+    flex-grow: 1;
+    margin-left: 20px;
+    height: 100%;
+    padding: 20px;
 }
 
 section > h2{
     color: #1BAFBF;
+}
+
+section button {
+    padding: 10px 30px;
+    margin-bottom: 50px;
+    font-size: 18px;
 }
 
 /* ======================================================================== */
@@ -253,3 +212,115 @@ footer {
 
 }
   
+/* ======================================================================== */
+/* ========================MEDIA QUERIES ================================== */
+
+@media only screen and (max-width: 480px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .circuloLogo,
+    .circuloUser {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logoUser p {
+        width: 70px;
+        height: 40px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 4px;
+    }
+
+    nav ul a {
+        width: calc(50% - 30px);
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os elementos verticalmente */
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    section {
+        margin-left: 80px;
+        margin-top: 10px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    section > h3,p,div {
+        display: flex;
+        margin-right: 80px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center; /* Centraliza os elementos horizontalmente */
+        width: 100%;
+        height: 160px;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center; /* Centraliza os elementos verticalmente */
+        padding: 0px;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 4px;
+    }
+
+    nav ul a {
+        width: calc(50% - 30px);
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os elementos verticalmente */
+    }
+}
