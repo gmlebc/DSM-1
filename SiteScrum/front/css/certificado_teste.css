@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+    background-image: url(../assets/certificado_vazio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.certificado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+.title{
+    padding: 20px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid red;
+}
+
+.certificado h1 {
+
+}
+
+span {
+    font-family: cursive;
+    font-size: 80px;
+    font-weight: 100;
+    color: #1BAFBF;
+}
+.conteudo p, .conteudo div{
+    display: inline;
+}
+.aprovado{
+    font-size: 18px;
+    
+}
