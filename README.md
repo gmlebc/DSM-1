@@ -192,7 +192,7 @@ Otimização do Burndown focando manter as entregas dentro do eixo ideal. Além 
 | ID REFERENCIA | Scrum Poker Planning | ATIVIDADE | REQUISITO DA SPRINT | Responsável | TAREFA CONCLUIDA |
 |---------------|----|---------------------------|---------------------|-------------|------------------|
 | RNF - 1       | 5  | Cadastrar usuário no SGBD | Deve ser possível realizar o cadastro do usuário usando nome e email | Felipe | ✔  |
-| RNF - 2       | 5  | Login de usuário no servidor| O usuário deve ser capaz de realizar login em sua conta usando nome e email | Felipe |   |
+| RNF - 2       | 5  | Login de usuário no servidor| O usuário deve ser capaz de realizar login em sua conta usando nome e email | Felipe | ✔  |
 | RNF - 1       | 13 | Obter as questões no front end| Integrar JS e HTML/CSS para obter questões na página de questões | Maria Eduarda e Raquel  | ✔  |
 | RNF - 2       | 13 | Salvar pontuação| O sistema deve ser capaz de salvar a pontuação no BD | Pamela|   |
 | RNF - 1       | 13 | Recuperar questões respondidas no servidor | O sistema deve ser capaz de guardar e consultar as questões que já foram respondidas pelo usuário| Felipe |    |
