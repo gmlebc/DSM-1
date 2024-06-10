@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +9,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-    <script src="js/geral.js"></script>
-    <script src="js/testeCertificado.js"></script>
+    <script src="js/teste.js" defer></script>
 
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        .visible {
+            display: block;
+        }
+    </style>
 </head>
-
 
 <body>
     <header>
@@ -28,55 +34,55 @@
                 <h1>TechWizards</h1>
             </a>
         </div>
-
     </header>
 
     <main>
-
         <nav>
             <ul>
-                <a href="Perfil.html"><li class="conta"  style="background-color: #F2CB05">Conta</li></a>
-                <a href=""> <li id="botao-logout" class="botao" onclick="logout()" style="text-decoration: none;
-                background-color: lightgray;">Sair</li></a>
+                <a href="Perfil.html">
+                    <li class="conta" style="background-color: #F2CB05">Conta</li>
+                </a>
+                <a href="">
+                    <li id="botao-logout" class="botao" onclick="logout()" style="text-decoration: none; background-color: lightgray;">Sair</li>
+                </a>
             </ul>
         </nav>
 
         <section>
             <div class="limita-secao">
-                <div class="box">
+                <div class="box hidden" id="box-curso">
                     <div>
                         <h2>Informações Pessoais</h2>
                         <br>
-        
-                        <p> Neste painel você pode acessar seu curso e emitir seu certificado (quando disponível). </p>
+                        <p>Neste painel você pode acessar seu curso e emitir seu certificado (quando disponível).</p>
                         <br>
                     </div>
                     <div>
-                        <a href="conteudocurso.html"><button class="texto-botao" style="background-color: #F2CB05">Acessar Curso</button>    </a>
+                        <a href="conteudocurso.html">
+                            <button class="texto-botao" style="background-color: #F2CB05">Acessar Curso</button>
+                        </a>
                     </div>
                 </div>
-               
-                <br>
-                <br>
-                <div class="box">
-                    <div>                    
-                        <h2>Certificado </h2>
-                        <p>Acesse seu certificado </p>
+                <br><br>
+                <div class="box hidden" id="box-certificado">
+                    <div>
+                        <h2>Certificado</h2>
+                        <p>Acesse seu certificado</p>
                         <br>
                     </div>
                     <div>
-                        <a href="certificado_teste.html"><button class="texto-botao">Acessar Certificado</button></a>
-                    </div>  
+                        <a href="certificado_teste.html">
+                            <button class="texto-botao">Acessar Certificado</button>
+                        </a>
+                    </div>
                 </div>
-            </div>     
+            </div>
         </section>
-
     </main>
 
     <footer>
         <p>Desenvolvido por TechWizards</p>
     </footer>
-
 </body>
 
 </html>

@@ -13,12 +13,12 @@ function exibirNome() {
   }
 }
 
-
 function listarQuestao() {
   // Verifica se o usuário está logado
   if (!usuarioLogado) {
     // Esconde o botão de logout
     document.getElementById("botao-logout").style.display = "none";
+    document.getElementById("botao-perfil").style.display = "none";
     document.getElementById("saida").innerHTML =
       "<p>O usuário não está logado. Clique para efetuar o <a href='./login.html'>login</a>.</p>";
   } else {
@@ -50,6 +50,8 @@ function listarQuestao() {
           document.getElementById("saida").innerHTML = `
             <h4>Você já foi aprovado com a nota ${data.nota} no questionário realizado em ${data.datahorario}.</h4>
             <a href="./respostas.html">Ver o seu questionário</a>
+           
+            <a href="certificado_teste.html"><buttom class = "botao">Certificado</buttom></a> 
           `;
         }else {
           let questoes = "";

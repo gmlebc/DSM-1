@@ -2,7 +2,7 @@ function logar() {
   const mail = document.getElementById("login-mail").value.trim();
 
   if (!mail || mail.length == 0) {
-    document.getElementsByClassName("msg-erro")[0].innerText = "Forneça o e-mail";
+    document.getElementsByClassName("msg-erro")[0].innerText = "Forneça o e-mail!";
     document.getElementsByClassName("msg-erro")[0].style.display = "flex";
   } else {
     document.getElementsByClassName("msg-erro")[0].style.display = "none";

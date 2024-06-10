@@ -15,7 +15,7 @@
 
 </head>
 
-<body onload="carregarLogin();listarQuestao();exibirMail()">
+<body onload="carregarLogin();listarQuestao();exibirMail();exibirNome()">
   <header>
     <div class="logoTitulo">
       <a href="home.html">
@@ -27,23 +27,19 @@
         <h1>TechWizards</h1>
       </a>
     </div>
-    <div class="logoUser" id="botao-login" class="botao" onclick="login()">
-      <div class="circuloUser">
-        <img src="assets/user.svg" alt="">
-      </div>
-      <p>Entrar</p>
+    <div id="nome" class="nome">
+      <p></p>
     </div>
-
   </header>
 
   <main>
     <nav>
       <ul>
-        <a href="/Site Scrum/front/conteudocurso.html">
+        <a href="conteudocurso.html">
           <li>Conteúdo</li>
         </a>
-        <a href="certificado_teste.html">
-          <li>Certificado</li>
+        <a href="perfil.html" id="botao-perfil">
+          <li>Perfil</li>
         </a>
       </ul>
     </nav>

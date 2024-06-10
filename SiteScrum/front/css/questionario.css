@@ -98,6 +98,7 @@ main {
   overflow: hidden;
   height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
 
 }
 
@@ -125,7 +126,7 @@ nav ul {
   flex-direction: column;
   list-style-type: none;
   padding: 6px;
-  width: 90%;
+  width: 100%;
   height: 100%;
 }
 
@@ -171,7 +172,6 @@ nav ul a {
 
 .item-alternativa {
   display: flex;
-
   margin-right: 30px;
 }
 
@@ -187,7 +187,7 @@ input {
 
 a {
   text-decoration: none;
-  color: #007bff;
+  color: #1BAFBF;
   
 }
 
@@ -203,6 +203,9 @@ a {
   font-size: 16px;
   cursor: pointer;
   margin: 0px 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 5px rgba(88, 87, 87, 0.75);
+  
 }
 
 .botao:hover {
@@ -242,4 +245,110 @@ footer {
 
   color: white;
   background-color: #0D0D0D;
+}
+
+/* ======================================================================== */
+/* ========================MEDIA QUERIES ================================== */
+
+
+@media only screen and (max-width: 480px) {
+  header {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px;
+
+  }
+
+  .circuloLogo,
+  .circuloUser {
+      width: 40px;
+      height: 40px;
+  }
+
+  .logoUser p {
+      width: 70px;
+      height: 40px;
+  }
+
+  main {
+      flex-direction: column;
+  }
+
+  section {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+
+  nav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 200px;
+      padding: 5px;
+  }
+
+  nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0px;
+      width: 100%;
+  }
+
+  nav ul li {
+      margin: 4px;
+  }
+
+  nav ul a {
+      width: calc(50% - 30px);
+  }
+
+  footer {
+      flex-direction: column;
+      align-items: center;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  h1 {
+      font-size: 25px;
+  }
+
+  section {
+      margin-left: 0;
+      margin-top: 20px;
+      width: 100%;
+  }
+
+  nav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 200px;
+  }
+
+  nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0px;
+      width: 100%;
+  }
+
+  nav ul li {
+      margin: 4px;
+  }
+
+  nav ul a {
+      width: calc(50% - 30px);
+  }
+
+  footer {
+      flex-direction: column;
+      align-items: center;
+  }
 }
