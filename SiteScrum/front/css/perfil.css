@@ -140,6 +140,9 @@ nav ul li {
     border: 1px solid #0a6872;
     box-shadow: 1px 1px 5px rgba(88, 87, 87, 0.75);
 }
+nav ul li:hover {
+    background-color: #F2CB05;
+}
 
 nav ul a {
     text-decoration: none;

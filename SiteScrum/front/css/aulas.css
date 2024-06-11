@@ -22,6 +22,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     min-height: 100px;
     width: 100%;
     background-color: #0D0D0D;
@@ -94,11 +95,10 @@ main {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    overflow:hidden;
-    height: 100vh;
-   
-
-}
+    overflow: hidden;
+    min-height: 100vh;
+    height: 100%;
+  }
 
 p {
     font-size: 20px;
@@ -107,12 +107,13 @@ p {
 
 /* ======================================================================== */
 /* ============================== NAV ===================================== */
-nav {
+ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+
     width: 182px;
-    height: 100%;
+    min-height: 100%;
     background-color: #1BAFBF;
     border-right: 1px solid #0a6872;
     box-shadow: 1px 1px 5px 0.1px rgba(88, 87, 87, 0.75);
@@ -125,105 +126,103 @@ nav ul {
     padding: 6px;
     width: 100%;
     height: 100%;
-    
-}
-
-nav ul a {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #222;
 }
 
 nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightgray;
-    padding: 10px; 
+    padding: 10px;
     text-align: center;
     margin: 6px;
     border: 1px solid #0a6872;
     box-shadow: 1px 1px 5px rgba(88, 87, 87, 0.75);
+    
 }
-nav ul li:hover {
+nav ul li:hover{
     background-color: #F2CB05;
 }
 
+/* nav ul li.aula1{
+    background-color: #F2CB05;
+} */
+nav ul a {
+    text-decoration: none;
+    color: #222;
+    align-content: center;
+    width: 100%;
+}
 
 /* ======================================================================== */
 /* ============================== SECTIONS ================================ */
 
 section {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 20%;
     flex-grow: 1;
     margin-left: 20px;
-    margin-top: 20px;
-    height: 100%;
+    min-height: 100%;
+    padding-bottom: 20px;
+
 }
-h2{ 
+
+section .limita-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
     text-align: justify;
+
+}
+
+.limita-secao p {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.limita-secao li {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.limita-secao h2,
+h3 {
+    color: #1BAFBF;
+
+}
+
+h2 {
+    margin: 40px 0 20px 0;
     font-size: 35px;
     font-weight: bold;
 }
-section .sobre-conteudo, .titulo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0 auto;
-    padding: 15px;
-}
 
-.especial{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-    background-color: #1BAFBF;
-    
-    border: 2px solid #0a6872;
-}
-p {
-    font-size: 20px;
-    padding: 5px;
-    color: white;
-}
-
-h3{
-    color: #1BAFBF;
+h3 {
     margin-bottom: 20px;
-    font-size: 22px;
-}
-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    font-size: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: lightgray;
-    border: none;
-    min-width: 20%;
-    border: 1px solid #0a6872;
-    box-shadow: 1px 1px 5px #0a6872;
-}
-a{
-    text-decoration: none;
+    font-size: 25px;
 }
 
-button:hover {
-    cursor: pointer;
-    background-color: #F2CB05;
+h4 {
+    margin: 20px 0 20px 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+h5 {
+    margin: 20px 0 2px 0;
+    font-size: 20px;
+    color: #0a6872;
+    text-align: left;
 }
 
 
-
-
+.limita-secao .aula2p {
+    font-size: 18px !important; /* Adicionando !important para garantir prioridade */
+    text-align: left;
+}
 
 
 /* ======================================================================== */
@@ -273,7 +272,6 @@ footer {
     section {
         margin-left: 0;
         margin-top: 20px;
-        height: fit-content;
     }
 
     nav {
@@ -308,6 +306,8 @@ footer {
 @media only screen and (max-width: 768px) {
     main {
         flex-direction: column;
+        align-items: center;
+
     }
 
     h1 {
@@ -318,7 +318,6 @@ footer {
         margin-left: 0;
         margin-top: 20px;
         width: 100%;
-        height: fit-content;
     }
 
     nav {
