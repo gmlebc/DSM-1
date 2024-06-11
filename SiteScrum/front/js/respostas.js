@@ -25,9 +25,11 @@ function listarQuestionario() {
           let questoes = "";
           for (i = 0; i < data.questoes.length; i++) {
             questoes += `<div class='questao'>
-            <div class='linha-enunciado'>${data.questoes[i].enunciado}</div>
+            <div class='linha-enunciado'>${[i+1]}) ${data.questoes[i].enunciado}</div>
             <div class='linha-alternativa'>
-              Respondido: ${data.questoes[i].respondido} Correto: ${data.questoes[i].correto}
+              <p class ='respondido'>Respondido: ${data.questoes[i].respondido}</p>
+              <p>|</p>
+              <p class = 'correto'> Correto: ${data.questoes[i].correto}</p>
             </div>
           </div>`;
           }

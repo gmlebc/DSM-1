@@ -31,7 +31,8 @@ function logar() {
       .then((data) => {
         if (data.idusuario) {
           salvarLogin(data);
-          window.location.href = "./questionario.html";
+          // window.location.href = "./questionario.html";
+          window.location.href = "./perfil.html";
         }
         else{
           document.getElementsByClassName("msg-erro")[0].innerText = data.erro;

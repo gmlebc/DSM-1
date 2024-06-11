@@ -49,15 +49,18 @@ function listarQuestao() {
         } if( data.idquestionario ){
           document.getElementById("saida").innerHTML = `
             <h4>Você já foi aprovado com a nota ${data.nota} no questionário realizado em ${data.datahorario}.</h4>
+            <br>
             <a href="./respostas.html">Ver o seu questionário</a>
-           
-            <a href="certificado_teste.html"><buttom class = "botao">Certificado</buttom></a> 
+            <br><br>
+            <buttom class ="botao"><a href="certificado.html">Certificado</a></buttom>
           `;
+          document.getElementById("botao-enviar").style.display = "none";
+
         }else {
           let questoes = "";
           for (i = 0; i < data.length; i++) {
             questoes += `<div class='questao'>
-            <div class='linha-enunciado'>${data[i].enunciado}</div>
+            <div class='linha-enunciado'> ${[i+1]}) ${data[i].enunciado}</div>
             <div class='linha-alternativa'>
               <input type="hidden" value="${data[i].idquestao}"/>
               <div class='item-alternativa'>
@@ -138,6 +141,9 @@ function processarEnvioRespostas(objeto) {
     .then((data) => {
       if (data.nota) {
         alert(`Parabéns! Você foi aprovado com a nota ${data.nota}`);
+                document.getElementById("saida").innerHTML = `
+            <a href="./respostas.html">Ver o seu questionário</a>
+          `;
       } else {
         alert(data.erro);
       }
