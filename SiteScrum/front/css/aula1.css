@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     box-sizing: border-box;
 }
 
@@ -125,7 +125,7 @@ nav ul {
     flex-direction: column;
     list-style-type: none;
     padding: 6px;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 
@@ -139,7 +139,6 @@ nav ul li {
     margin: 6px;
     border: 1px solid #0a6872;
     box-shadow: 1px 1px 5px rgba(88, 87, 87, 0.75);
-    
 }
 
 /* nav ul li.aula1{
@@ -161,14 +160,12 @@ section {
     flex-grow: 1;
     margin-left: 20px;
     height: 100%;
-
 }
 
 section .limita-secao {
     display: flex;
     flex-direction: column;
     align-items: normal;
-
     width: 80%;
     margin: 0 auto;
     padding: 20px;
@@ -204,11 +201,24 @@ h3 {
 }
 
 h4 {
-    margin: 20px 0 20px 0;
+    margin: 20px 0 10px 0;
     font-size: 24px;
     letter-spacing: 1px;
 }
 
+h5 {
+    margin: 20px 0 2px 0;
+    font-size: 20px;
+    color: #0a6872;
+    text-align: left;
+}
+
+
+.limita-secao .aula2p {
+    font-size: 18px !important; /* Adicionando !important para garantir prioridade */
+    text-align: left;
+  }
+  
 
 /* ======================================================================== */
 /* ============================== FOOTER ================================== */
