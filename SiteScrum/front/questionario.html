@@ -15,20 +15,21 @@
 
 </head>
 
-<body onload="carregarLogin();listarQuestao();exibirMail();exibirNome()">
+<body onload="carregarLogin();listarQuestao();exibirMail();exibirNome();">
   <header>
     <div class="logoTitulo">
-      <a href="home.html">
+      <a href="#">
         <div class="circuloLogo">
           <img src="assets/logo2semfundo.png" alt="">
         </div>
       </a>
-      <a href="home.html">
+      <a href="#">
         <h1>TechWizards</h1>
       </a>
     </div>
-    <div id="nome" class="nome">
-      <p></p>
+    <div class="logoUser"  id="botao-logout" onclick="logout()">
+      <div style="color:white" id="mail"></div>
+      <p>Logout</p>
     </div>
   </header>
 
@@ -49,9 +50,7 @@
       </div>
   
       <div id="bar">
-        <div id="mail"></div>
         <div id="botao-enviar" class="botao" onclick="enviarRespostas()">Enviar respostas</div>
-        <div id="botao-logout" class="botao" onclick="logout()">Logout</div> 
       </div>
     </section>
     
