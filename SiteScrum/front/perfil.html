@@ -11,22 +11,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <script src="js/geral.js"></script>
-    <script src="js/testeCertificado.js"></script>
+    <script src="js/perfil.js"></script>
+    <script src="./js/questionario.js"></script>
+
 
 </head>
 
 
-<body>
+<body onload="carregarLogin();exibirCertificado();exibirMail();exibirNome();">
     <header>
         <div class="logoTitulo">
-            <a href="home.html">
+            <a href="#">
                 <div class="circuloLogo">
                     <img src="assets/logo2semfundo.png" alt="">
                 </div>
             </a>
-            <a href="home.html">
+            <a href="#">
                 <h1>TechWizards</h1>
             </a>
+        </div>
+        <div class="logoUser" id="botao-logout">
+            <div style="color:white" id="mail"></div>
         </div>
 
     </header>
@@ -35,9 +40,12 @@
 
         <nav>
             <ul>
-                <a href="Perfil.html"><li class="conta"  style="background-color: #F2CB05">Conta</li></a>
-                <a href=""> <li id="botao-logout" class="botao" onclick="logout()" style="text-decoration: none;
-                background-color: lightgray;">Sair</li></a>
+                <a href="Perfil.html">
+                    <li class="conta">Conta</li>
+                </a>
+                <a href="login.html">
+                    <li id="botao-logout" class="botao" onclick="logout()">Sair</li>
+                </a>
             </ul>
         </nav>
 
@@ -47,28 +55,24 @@
                     <div>
                         <h2>Informações Pessoais</h2>
                         <br>
-        
+
                         <p> Neste painel você pode acessar seu curso e emitir seu certificado (quando disponível). </p>
                         <br>
                     </div>
                     <div>
-                        <a href="conteudocurso.html"><button class="texto-botao" style="background-color: #F2CB05">Acessar Curso</button>    </a>
+                        <a href="conteudocurso.html"><button class="texto-botao"
+                                style="background-color: #F2CB05">Acessar Curso</button> </a>
                     </div>
                 </div>
-               
+
                 <br>
                 <br>
                 <div class="box">
-                    <div>                    
-                        <h2>Certificado </h2>
-                        <p>Acesse seu certificado </p>
-                        <br>
-                    </div>
-                    <div>
-                        <a href="certificado_teste.html"><button class="texto-botao">Acessar Certificado</button></a>
-                    </div>  
+
+                    <div id="exibirCertificado"></div>
+
                 </div>
-            </div>     
+            </div>
         </section>
 
     </main>

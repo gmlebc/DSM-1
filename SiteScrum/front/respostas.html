@@ -3,17 +3,56 @@
   <head>
     <title>Respostas</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./js/geral.js"></script>
-    <script src="./js/respostas.js"></script>
-    <link rel="stylesheet" href="./css/questionario.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="js/geral.js"></script>
+  <script src="js/questionario.js"></script>
+  <script src="js/respostas.js"></script>
+  <link rel="stylesheet" href="css/respostas.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
   </head>
-  <body onload="carregarLogin();listarQuestionario();">
-    <div id="bar">
-      <div id="botao-logout" class="botao" onclick="logout()">Logout</div>
-    </div>
-    <div class="box">
-      <div id="saida"></div>
-    </div>
+  <body onload="carregarLogin();listarQuestionario();exibirMail();exibirNome();">
+    <header>
+      <div class="logoTitulo">
+        <a href="#">
+          <div class="circuloLogo">
+            <img src="assets/logo2semfundo.png" alt="">
+          </div>
+        </a>
+        <a href="#">
+          <h1>TechWizards</h1>
+        </a>
+      </div>
+      <div class="logoUser"  id="botao-logout" onclick="logout()">
+        <div style="color:white" id="mail"></div>
+        <p>Logout</p>
+      </div>
+    </header>
+    <main>
+      <nav>
+        <ul>
+          <a href="conteudocurso.html">
+            <li>Conteúdo</li>
+          </a>
+          <a href="certificado.html">
+            <li>Certificado</li>
+          </a>
+        </ul>
+      </nav>
+      <section>
+        <div id="bar">
+          
+        </div>
+        <div class="box">
+          <div id="saida"></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido por TechWizards</p>
+    </footer>    
   </body>
 </html>
